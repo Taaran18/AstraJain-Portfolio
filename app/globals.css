@@ -1,0 +1,274 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Theme Variables ─────────────────────────────────────────────────────── */
+:root {
+  /* LIGHT MODE (default) */
+  --bg:              #f8f5ee;
+  --bg-secondary:    #f0ecff;
+  --bg-deep:         #ede8ff;
+  --surface:         rgba(255, 255, 255, 0.82);
+  --surface-hover:   rgba(255, 255, 255, 0.97);
+  --border:          rgba(139, 92, 246, 0.18);
+  --border-hover:    rgba(212, 168, 67, 0.5);
+  --text-1:          #0d1340;
+  --text-2:          rgba(13, 19, 64, 0.7);
+  --text-3:          rgba(13, 19, 64, 0.45);
+  --shadow:          0 4px 24px rgba(76, 29, 149, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-hover:    0 8px 40px rgba(76, 29, 149, 0.14), 0 2px 8px rgba(0, 0, 0, 0.07);
+  --gradient-hero:   radial-gradient(ellipse at top, #ddd5f8 0%, #ede8ff 40%, #f8f5ee 100%);
+  --gradient-section: linear-gradient(180deg, #f8f5ee 0%, #f0ecff 50%, #f8f5ee 100%);
+  --nav-bg:          rgba(248, 245, 238, 0.96);
+  --scrollbar-bg:    #ede8ff;
+  --font-cinzel: 'Cinzel', serif;
+  --font-cormorant: 'Cormorant Garamond', serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+/* DARK MODE */
+html.dark {
+  --bg:              #030712;
+  --bg-secondary:    #0a0f2e;
+  --bg-deep:         #0d1340;
+  --surface:         rgba(30, 27, 75, 0.4);
+  --surface-hover:   rgba(30, 27, 75, 0.65);
+  --border:          rgba(212, 168, 67, 0.15);
+  --border-hover:    rgba(212, 168, 67, 0.38);
+  --text-1:          #e2e8f0;
+  --text-2:          rgba(192, 201, 232, 0.75);
+  --text-3:          rgba(192, 201, 232, 0.45);
+  --shadow:          0 4px 40px rgba(76, 29, 149, 0.3);
+  --shadow-hover:    0 8px 60px rgba(76, 29, 149, 0.5);
+  --gradient-hero:   radial-gradient(ellipse at top, #1e1b4b 0%, #0a0f2e 40%, #030712 100%);
+  --gradient-section: linear-gradient(180deg, #030712 0%, #0a0f2e 50%, #030712 100%);
+  --nav-bg:          rgba(10, 15, 46, 0.96);
+  --scrollbar-bg:    #0a0f2e;
+}
+
+/* ─── Reset ───────────────────────────────────────────────────────────────── */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  background-color: var(--bg);
+  color: var(--text-1);
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+/* ─── Custom cursor ───────────────────────────────────────────────────────── */
+@media (pointer: fine) {
+  html, html * { cursor: none !important; }
+}
+
+/* ─── Scrollbar ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--scrollbar-bg); }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d4a843, #4c1d95);
+  border-radius: 3px;
+}
+
+/* ─── Selection ───────────────────────────────────────────────────────────── */
+::selection { background: rgba(212, 168, 67, 0.3); color: #d4a843; }
+
+/* ─── Glass card ──────────────────────────────────────────────────────────── */
+.glass-card {
+  background: var(--surface);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.glass-card-hover:hover {
+  background: var(--surface-hover);
+  border-color: var(--border-hover);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-4px);
+}
+
+/* ─── Gold divider ────────────────────────────────────────────────────────── */
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #d4a843, transparent);
+  opacity: 0.5;
+}
+html.dark .gold-divider { opacity: 1; }
+
+/* ─── Buttons ─────────────────────────────────────────────────────────────── */
+.btn-cosmic {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(76,29,149,0.9), rgba(49,46,129,0.9));
+  border: 1px solid rgba(212,168,67,0.35);
+  color: #fef9ec;
+  padding: 12px 32px;
+  border-radius: 4px;
+  font-family: var(--font-cinzel);
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+.btn-cosmic::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(212,168,67,0.12), transparent);
+  transition: left 0.5s ease;
+}
+.btn-cosmic:hover::before { left: 100%; }
+.btn-cosmic:hover {
+  border-color: rgba(212,168,67,0.7);
+  box-shadow: 0 0 20px rgba(212,168,67,0.25), 0 0 40px rgba(76,29,149,0.35);
+  transform: translateY(-2px);
+}
+html:not(.dark) .btn-cosmic {
+  background: linear-gradient(135deg, rgba(76,29,149,0.85), rgba(49,46,129,0.85));
+  box-shadow: 0 2px 12px rgba(76,29,149,0.2);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #d4a843 0%, #f59e0b 50%, #d4a843 100%);
+  background-size: 200% 100%;
+  color: #030712;
+  padding: 12px 32px;
+  border-radius: 4px;
+  font-family: var(--font-cinzel);
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  text-align: center;
+}
+.btn-gold:hover {
+  background-position: right center;
+  box-shadow: 0 0 25px rgba(212,168,67,0.45);
+  transform: translateY(-2px);
+}
+
+/* ─── Section padding ─────────────────────────────────────────────────────── */
+.section-padding { padding: 80px 0; }
+@media (min-width: 768px) { .section-padding { padding: 120px 0; } }
+
+/* ─── Gold text ───────────────────────────────────────────────────────────── */
+.text-gold {
+  background: linear-gradient(135deg, #d4a843 0%, #f59e0b 50%, #b8860b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Section backgrounds using CSS vars ─────────────────────────────────── */
+.hero-bg   { background: var(--gradient-hero); }
+.section-bg { background: var(--gradient-section); }
+
+/* ─── Light-mode text overrides for dark-specific Tailwind classes ────────── */
+html:not(.dark) .text-white,
+html:not(.dark) .text-slate-100,
+html:not(.dark) .text-slate-200 {
+  color: var(--text-1) !important;
+}
+html:not(.dark) .text-slate-300,
+html:not(.dark) .text-slate-400 {
+  color: var(--text-2) !important;
+}
+/* cosmic-silver overrides */
+html:not(.dark) [class*="text-cosmic-silver"] {
+  color: var(--text-2) !important;
+}
+
+/* ─── Light-mode background overrides ───────────────────────────────────── */
+html:not(.dark) .bg-cosmic-black  { background-color: var(--bg) !important; }
+html:not(.dark) .bg-cosmic-navy   { background-color: var(--bg-secondary) !important; }
+html:not(.dark) .bg-cosmic-deep   { background-color: var(--bg-deep) !important; }
+html:not(.dark) [class*="bg-cosmic-navy\/"] { background-color: rgba(240,236,255,0.6) !important; }
+html:not(.dark) [class*="bg-cosmic-violet\/"] { background-color: rgba(139,92,246,0.08) !important; }
+html:not(.dark) [class*="bg-indigo-900\/"] { background-color: rgba(49,46,129,0.08) !important; }
+html:not(.dark) [class*="from-cosmic"] { --tw-gradient-from: rgba(237,232,255,1) !important; }
+html:not(.dark) [class*="via-cosmic"] { --tw-gradient-via: rgba(240,236,255,0.5) !important; }
+html:not(.dark) [class*="to-cosmic"]  { --tw-gradient-to: rgba(248,245,238,1) !important; }
+
+/* gradient overrides for section backgrounds */
+html:not(.dark) .bg-cosmic-gradient,
+html:not(.dark) [class*="bg-cosmic-gradient"] {
+  background: var(--gradient-hero) !important;
+}
+html:not(.dark) .bg-section-gradient,
+html:not(.dark) [class*="bg-section-gradient"] {
+  background: var(--gradient-section) !important;
+}
+
+/* ─── Light-mode border/ring overrides ──────────────────────────────────── */
+html:not(.dark) [class*="border-[rgba(212"] {
+  border-color: rgba(139, 92, 246, 0.2) !important;
+}
+html:not(.dark) .border-y { border-color: rgba(139, 92, 246, 0.15) !important; }
+html:not(.dark) [class*="border-t"],
+html:not(.dark) [class*="border-b"] {
+  border-color: rgba(139, 92, 246, 0.12) !important;
+}
+
+/* ─── Header nav light mode ─────────────────────────────────────────────── */
+html:not(.dark) header { color: var(--text-1); }
+
+/* ─── Footer light mode ──────────────────────────────────────────────────── */
+html:not(.dark) footer { background-color: var(--bg-secondary) !important; }
+
+/* ─── Gradient glow blobs – lighter in light mode ───────────────────────── */
+html:not(.dark) [class*="bg-cosmic-violet\/20"],
+html:not(.dark) [class*="bg-cosmic-violet\/15"],
+html:not(.dark) [class*="bg-cosmic-violet\/10"] {
+  background-color: rgba(139,92,246,0.06) !important;
+}
+html:not(.dark) [class*="bg-indigo-900\/30"],
+html:not(.dark) [class*="bg-indigo-900\/20"],
+html:not(.dark) [class*="bg-indigo-900\/15"] {
+  background-color: rgba(99,102,241,0.05) !important;
+}
+
+/* ─── Zodiac & profile avatar in light ──────────────────────────────────── */
+html:not(.dark) [class*="from-cosmic-violet"] {
+  --tw-gradient-from: #7c3aed !important;
+}
+html:not(.dark) [class*="to-indigo-900"] {
+  --tw-gradient-to: #4338ca !important;
+}
+
+/* ─── Input fields light mode ────────────────────────────────────────────── */
+html:not(.dark) input,
+html:not(.dark) textarea,
+html:not(.dark) select {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  color: var(--text-1) !important;
+  border-color: rgba(139,92,246,0.2) !important;
+}
+html:not(.dark) input::placeholder,
+html:not(.dark) textarea::placeholder {
+  color: rgba(13,19,64,0.35) !important;
+}
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: rgba(212,168,67,0.6) !important;
+  box-shadow: 0 0 0 3px rgba(212,168,67,0.1);
+}
+
+/* ─── Timeline line light mode ───────────────────────────────────────────── */
+html:not(.dark) .about-timeline-line {
+  background: linear-gradient(180deg, transparent, rgba(139,92,246,0.3), transparent);
+}
