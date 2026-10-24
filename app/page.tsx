@@ -26,7 +26,7 @@ import { primaryPhone, site, whatsappLink } from "@/lib/site";
 export const metadata: Metadata = pageMetadata({
   title: "Best Astrologer In Jaipur – Sachin Jain | AstroJain",
   description:
-    "Consult Sachin Jain, Vedic and face reading astrologer in Jaipur, for kundli matching, marriage, career and business guidance, numerology and Vastu. ₹1,100 per sitting.",
+    "Kundli matching, marriage, career and money answers from Sachin Jain, Jaipur astrologer with 40 years of practice. ₹1,100, online.",
   path: "/",
   absoluteTitle: true,
 });
@@ -322,16 +322,22 @@ export default function HomePage() {
             />
             <div className="hidden grid-cols-2 gap-4 sm:grid">
               {[
-                "/images/sachin-jain-vedic-astrologer-office.jpg",
-                "/images/sachin-jain-online-consultation.jpg",
-              ].map((src) => (
+                {
+                  src: "/images/sachin-jain-vedic-astrologer-office.jpg",
+                  alt: "Sachin Jain seated at his desk, ready for a client consultation",
+                },
+                {
+                  src: "/images/sachin-jain-online-consultation.jpg",
+                  alt: "Sachin Jain giving an online astrology consultation on his laptop",
+                },
+              ].map(({ src, alt }) => (
                 <div
                   key={src}
                   className="relative aspect-square overflow-hidden rounded-card border border-line"
                 >
                   <Image
                     src={src}
-                    alt=""
+                    alt={alt}
                     fill
                     sizes="(min-width: 1024px) 20vw, 45vw"
                     className="object-cover"

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { animate, useInView, useReducedMotion } from "framer-motion";
+import { useInView, useReducedMotion } from "framer-motion";
 
 type CountUpProps = {
   to: number;
@@ -11,6 +11,7 @@ type CountUpProps = {
 };
 
 const format = (n: number) => Math.round(n).toLocaleString("en-IN");
+const DURATION = 1600;
 
 export function CountUp({ to, prefix = "", suffix = "", className }: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null);
@@ -20,14 +21,16 @@ export function CountUp({ to, prefix = "", suffix = "", className }: CountUpProp
   useEffect(() => {
     const node = ref.current;
     if (!node || !inView || reduced) return;
-    const controls = animate(0, to, {
-      duration: 1.6,
-      ease: [0.22, 1, 0.36, 1],
-      onUpdate: (v) => {
-        node.textContent = `${prefix}${format(v)}${suffix}`;
-      },
-    });
-    return () => controls.stop();
+    let frame = 0;
+    const start = performance.now();
+    const tick = (now: number) => {
+      const t = Math.min(1, (now - start) / DURATION);
+      const eased = 1 - Math.pow(1 - t, 4);
+      node.textContent = `${prefix}${format(to * eased)}${suffix}`;
+      if (t < 1) frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
   }, [inView, reduced, to, prefix, suffix]);
 
   return (

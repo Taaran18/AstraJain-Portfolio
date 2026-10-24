@@ -49,9 +49,9 @@ export const servicePages: ServicePage[] = [
       "manglik dosha matching",
       "online kundli matching by astrologer",
     ],
-    metaTitle: "Kundli Matching For Marriage In Jaipur | Kundli Milan",
+    metaTitle: "Kundli Matching For Marriage In Jaipur",
     metaDescription:
-      "Kundli milan by Jaipur Vedic astrologer Sachin Jain: 36 guna matching, Manglik dosha check and cancellation, and honest advice for families. Online consultations.",
+      "Kundli milan by Sachin Jain: 36 guna matching, Manglik dosha check and honest advice for families. Online, ₹1,100 per sitting.",
     h1: "Kundli Matching In Jaipur That Looks Beyond The Guna Score",
     intro:
       "A score out of 36 from an app cannot tell you whether a marriage will be happy. Sachin Jain reads both kundlis in full, checks Mangal dosha properly and tells you plainly whether the match is strong, workable with care, or a real concern.",
@@ -126,7 +126,7 @@ export const servicePages: ServicePage[] = [
     ],
     metaTitle: "Face Reading Astrologer In Jaipur",
     metaDescription:
-      "Face reading by Sachin Jain, Jaipur: forehead, eyes, nose, lips and jaw read together, then cross-checked with your kundli for career, love and money.",
+      "Face reading by Sachin Jain, Jaipur: five facial zones read together and cross-checked with your kundli. Career, love and money.",
     h1: "Face Reading Astrologer In Jaipur, Checked Against Your Kundli",
     intro:
       "A horoscope tells you what the planets are doing. A face reading tells you who you are: the instincts you can trust, the patterns that keep repeating and the strengths others have missed. Sachin Jain reads the permanent features of your face, then confirms every observation with your birth chart.",
@@ -202,7 +202,7 @@ export const servicePages: ServicePage[] = [
     ],
     metaTitle: "Kundli And Birth Chart Reading In Jaipur",
     metaDescription:
-      "Kundli (birth chart) reading by Sachin Jain in Jaipur or online. Clear answers on career, marriage delay, money and Sade Sati, with simple remedies.",
+      "Kundli reading by Sachin Jain, Jaipur: clear answers on career, marriage delay, money and Sade Sati, with simple remedies.",
     h1: "Kundli And Horoscope Reading In Jaipur For Real-Life Questions",
     intro:
       "When marriage keeps getting delayed, a job will not move or money keeps slipping away, you want to know why and when it will change. A full reading of your kundli shows the planetary periods behind it and the timing ahead.",
@@ -275,9 +275,9 @@ export const servicePages: ServicePage[] = [
       "business name numerology",
       "lucky number by date of birth",
     ],
-    metaTitle: "Numerologist In Jaipur | Name Correction And Business Name",
+    metaTitle: "Numerologist In Jaipur | Name Correction",
     metaDescription:
-      "Numerology in Jaipur by Sachin Jain: name correction, lucky numbers and business or brand name checks. Online by video, phone or WhatsApp.",
+      "Numerology by Sachin Jain, Jaipur: name correction, lucky numbers, business and brand names. Online by video, phone or WhatsApp.",
     h1: "Numerologist In Jaipur For Names, Businesses And Big Decisions",
     intro:
       "A name that is out of tune with your birth numbers can feel like constant friction. Numerology shows how your name, your date of birth and your business name work together, and how small spelling changes can bring them into line.",
@@ -347,9 +347,9 @@ export const servicePages: ServicePage[] = [
       "vastu without demolition",
       "vastu for new house",
     ],
-    metaTitle: "Vastu Consultant In Jaipur | Home And Office Vastu",
+    metaTitle: "Vastu Consultant In Jaipur For Home And Office",
     metaDescription:
-      "Vastu consultation for homes, flats, shops and offices in Jaipur by Sachin Jain. Floor plan review with practical corrections before any costly changes.",
+      "Vastu for homes, flats, shops and offices by Sachin Jain, Jaipur. Floor plan review with corrections that need no demolition.",
     h1: "Vastu Consultant In Jaipur For Homes, Shops And Offices",
     intro:
       "Constant arguments at home, money that never stays, a shop that does not pick up after the move. Vastu looks at how your space is laid out and suggests corrections, most of which need no breaking of walls.",
@@ -418,9 +418,9 @@ export const servicePages: ServicePage[] = [
       "astrologer for gemstone in jaipur",
       "gemstone consultation",
     ],
-    metaTitle: "Gemstone Recommendation By Kundli | Jaipur Astrologer",
+    metaTitle: "Gemstone Recommendation By Kundli, Jaipur",
     metaDescription:
-      "Find out which gemstone suits your kundli, and which to avoid. Sachin Jain checks your full chart before suggesting any stone. Jaipur or online.",
+      "Which gemstone suits your kundli, and which to avoid. Sachin Jain checks your full chart before suggesting any stone. Online.",
     h1: "Gemstone Recommendation By Kundli: The Right Stone, Or None At All",
     intro:
       "A gemstone chosen from your zodiac sign alone can strengthen the wrong planet. Sachin Jain checks your full chart first, recommends a stone only when it will help, and tells you exactly how to wear it.",
@@ -481,9 +481,9 @@ export const servicePages: ServicePage[] = [
     icon: Hand,
     serviceType: "Palmistry (hast rekha) reading",
     keywords: ["palm reading in jaipur", "palmist in jaipur", "hast rekha", "palmistry reading"],
-    metaTitle: "Palmist In Jaipur | Palm Reading By Sachin Jain",
+    metaTitle: "Palmist In Jaipur | Palm Reading",
     metaDescription:
-      "Palm reading in Jaipur with Sachin Jain: hand lines read with your kundli for career, marriage and health questions. Online, from clear photos of your palms.",
+      "Palm reading by Sachin Jain, Jaipur: hand lines read with your kundli for career, marriage and health. Online from palm photos.",
     h1: "Palm Reading In Jaipur, Read Together With Your Kundli",
     intro:
       "Your hands change as your life changes. A palm reading shows your strengths, the turning points in your career and relationships, and helps confirm your chart when the birth time is uncertain.",

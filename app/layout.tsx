@@ -13,14 +13,12 @@ import { themeInitScript } from "@/lib/theme";
 
 const display = Cinzel({
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
   variable: "--font-display",
   display: "swap",
 });
 
 const serif = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["500", "600"],
   style: ["normal", "italic"],
   variable: "--font-serif",
   display: "swap",
@@ -39,7 +37,7 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    "Consult Sachin Jain, Jaipur-based Vedic astrologer with 40 years of practice, online for kundli matching, marriage, career and business guidance, numerology and Vastu.",
+    "Kundli matching, marriage, career and money answers from Sachin Jain, Jaipur astrologer with 40 years of practice. ₹1,100, online.",
   applicationName: site.name,
   authors: [{ name: site.astrologer, url: site.url }],
   creator: site.name,

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { ArrowUpRight, Clock, IndianRupee, Mail, Menu, Sparkles, X } from "lucide-react";
 import { BrandBadge, PhoneIcon } from "@/components/ui/BrandIcon";
 import { Logo } from "@/components/brand/Logo";
@@ -100,7 +100,7 @@ function MobileMenu({
       style={{ width: "100vw", height: "100dvh", maxWidth: "none", maxHeight: "none", margin: 0 }}
     >
       {open && (
-        <motion.div
+        <m.div
           initial={{ x: "100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
@@ -125,7 +125,7 @@ function MobileMenu({
                     ? pathname === "/"
                     : pathname === link.href || pathname.startsWith(`${link.href}/`);
                 return (
-                  <motion.li
+                  <m.li
                     key={link.href}
                     initial={{ opacity: 0, x: 24 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -157,7 +157,7 @@ function MobileMenu({
                         className="text-fg-subtle transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
                       />
                     </Link>
-                  </motion.li>
+                  </m.li>
                 );
               })}
             </ul>
@@ -196,7 +196,7 @@ function MobileMenu({
               </span>
             </div>
           </div>
-        </motion.div>
+        </m.div>
       )}
     </dialog>
   );
@@ -260,7 +260,7 @@ export function Navbar() {
                       >
                         {link.label}
                         {active && (
-                          <motion.span
+                          <m.span
                             layoutId="nav-active"
                             aria-hidden="true"
                             className="absolute inset-x-4 -bottom-0.5 flex justify-center"
@@ -268,7 +268,7 @@ export function Navbar() {
                           >
                             <span className="h-[2px] w-full rounded-full bg-gradient-to-r from-transparent via-brand to-transparent" />
                             <span className="absolute -top-[3px] h-2 w-2 rotate-45 rounded-[2px] bg-brand" />
-                          </motion.span>
+                          </m.span>
                         )}
                       </Link>
                     </li>

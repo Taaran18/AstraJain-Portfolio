@@ -19,7 +19,7 @@ const path = "/services";
 export const metadata: Metadata = pageMetadata({
   title: "Astrology Services In Jaipur And Online",
   description:
-    "Kundli matching, horoscope reading, face reading, numerology, Vastu, gemstones and palmistry by Sachin Jain in Jaipur and online. ₹1,100 per consultation.",
+    "Kundli matching, face reading, horoscope, numerology, Vastu, gemstones and palmistry with Sachin Jain. Online, ₹1,100 per sitting.",
   path,
 });
 

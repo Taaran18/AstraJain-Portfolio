@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m } from "framer-motion";
 import { ArrowUp } from "lucide-react";
 import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 import { whatsappLink } from "@/lib/site";
@@ -25,7 +25,7 @@ export function FloatingActions() {
     <div className="pointer-events-none fixed bottom-[calc(1rem+env(safe-area-inset-bottom))] right-4 z-40 flex w-14 flex-col items-center gap-3 sm:bottom-6 sm:right-6">
       <AnimatePresence>
         {showTop && (
-          <motion.button
+          <m.button
             key="top"
             type="button"
             initial={{ opacity: 0, y: 12, scale: 0.9 }}
@@ -42,7 +42,7 @@ export function FloatingActions() {
             className="pointer-events-auto flex h-14 w-14 items-center justify-center rounded-full border border-line-strong bg-card text-fg shadow-lift transition-colors hover:border-gold hover:text-gold"
           >
             <ArrowUp size={20} aria-hidden="true" />
-          </motion.button>
+          </m.button>
         )}
       </AnimatePresence>
       <a

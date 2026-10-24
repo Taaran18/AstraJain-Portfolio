@@ -2,7 +2,7 @@
 
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import Image from "next/image";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m } from "framer-motion";
 import { Check, ChevronDown, CircleAlert, CircleCheck, Search } from "lucide-react";
 import { countries, getCountry, popularCountries, type Country } from "@/data/countries";
 import { digitsLabel, formatPhone, onlyDigits, phoneProblem } from "@/lib/phone";
@@ -224,7 +224,7 @@ export function PhoneField({
 
       <AnimatePresence>
         {open && (
-          <motion.div
+          <m.div
             role="dialog"
             aria-label="Choose your country code"
             initial={{ opacity: 0, y: -6 }}
@@ -310,7 +310,7 @@ export function PhoneField({
                 );
               })}
             </ul>
-          </motion.div>
+          </m.div>
         )}
       </AnimatePresence>
     </div>

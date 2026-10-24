@@ -9,7 +9,7 @@ const path = "/gallery";
 export const metadata: Metadata = pageMetadata({
   title: "Gallery | Sachin Jain, Astrologer In Jaipur",
   description:
-    "Photos of Jaipur astrologer Sachin Jain at work and the practices behind every online reading: kundli, palmistry, face reading and Vastu.",
+    "Photos of Jaipur astrologer Sachin Jain at work and the practices behind every reading: kundli, palmistry and face reading.",
   path,
 });
 

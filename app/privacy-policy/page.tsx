@@ -8,7 +8,7 @@ const path = "/privacy-policy";
 export const metadata: Metadata = pageMetadata({
   title: "Privacy Policy",
   description:
-    "How AstroJain collects, uses and protects the personal and birth details you share when you book an astrology consultation with Sachin Jain in Jaipur.",
+    "How AstroJain collects, uses and protects the contact and birth details you share when you book a consultation.",
   path,
 });
 

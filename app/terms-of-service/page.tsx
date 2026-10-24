@@ -9,7 +9,7 @@ const path = "/terms-of-service";
 export const metadata: Metadata = pageMetadata({
   title: "Terms Of Service",
   description:
-    "The terms that apply when you use the AstroJain website or book an astrology, kundli, numerology or Vastu consultation with Sachin Jain.",
+    "The terms for using the AstroJain website and booking an astrology, kundli, numerology or Vastu consultation with Sachin Jain.",
   path,
 });
 

@@ -1,7 +1,13 @@
 "use client";
 
-import { MotionConfig } from "framer-motion";
+import { LazyMotion, MotionConfig } from "framer-motion";
+
+const loadFeatures = () => import("@/components/ui/motion-features").then((mod) => mod.default);
 
 export function MotionProvider({ children }: { children: React.ReactNode }) {
-  return <MotionConfig reducedMotion="user">{children}</MotionConfig>;
+  return (
+    <LazyMotion features={loadFeatures}>
+      <MotionConfig reducedMotion="user">{children}</MotionConfig>
+    </LazyMotion>
+  );
 }

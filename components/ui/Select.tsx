@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m } from "framer-motion";
 import { Check, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -170,7 +170,7 @@ export function Select({
       </button>
       <AnimatePresence>
         {open && (
-          <motion.ul
+          <m.ul
             ref={listRef}
             id={listId}
             role="listbox"
@@ -209,7 +209,7 @@ export function Select({
                 </li>
               );
             })}
-          </motion.ul>
+          </m.ul>
         )}
       </AnimatePresence>
     </div>

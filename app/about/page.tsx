@@ -15,7 +15,7 @@ const path = "/about";
 export const metadata: Metadata = pageMetadata({
   title: "About Sachin Jain | Vedic Astrologer In Jaipur",
   description:
-    "Meet Sachin Jain of AstroJain, Jaipur: Vedic astrologer and face reading specialist known for honest readings, practical remedies and complete confidentiality.",
+    "Sachin Jain, Jaipur Vedic and face reading astrologer: 40 years of practice, honest readings, practical remedies, full privacy.",
   path,
 });
 

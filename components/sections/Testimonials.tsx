@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m } from "framer-motion";
 import { ChevronLeft, ChevronRight, Quote, Star } from "lucide-react";
 import { testimonials } from "@/data/testimonials";
 import { cn } from "@/lib/utils";
@@ -23,7 +23,7 @@ export function Testimonials() {
       >
         <div className="min-h-[18rem] overflow-hidden sm:min-h-[15rem]" aria-live="polite">
           <AnimatePresence mode="wait" initial={false}>
-            <motion.div
+            <m.div
               key={active.name}
               initial={{ opacity: 0, x: direction * 32 }}
               animate={{ opacity: 1, x: 0 }}
@@ -55,7 +55,7 @@ export function Testimonials() {
                   </span>
                 </span>
               </div>
-            </motion.div>
+            </m.div>
           </AnimatePresence>
         </div>
       </div>

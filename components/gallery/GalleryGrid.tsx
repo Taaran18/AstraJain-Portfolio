@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m } from "framer-motion";
 import { ArrowRight, ChevronLeft, ChevronRight, Maximize2 } from "lucide-react";
 import { Dialog } from "@/components/ui/Dialog";
 import { Button, ButtonLink } from "@/components/ui/Button";
@@ -73,10 +73,10 @@ export function GalleryGrid() {
           </Button>
         </div>
       ) : (
-        <motion.ul layout className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <m.ul layout className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           <AnimatePresence initial={false}>
             {filtered.map((item) => (
-              <motion.li
+              <m.li
                 key={item.id}
                 layout
                 initial={{ opacity: 0, scale: 0.96 }}
@@ -114,10 +114,10 @@ export function GalleryGrid() {
                     </span>
                   </div>
                 </button>
-              </motion.li>
+              </m.li>
             ))}
           </AnimatePresence>
-        </motion.ul>
+        </m.ul>
       )}
 
       <Dialog

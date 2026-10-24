@@ -23,9 +23,9 @@ import { site, whatsappLink } from "@/lib/site";
 const path = "/contact";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Book An Online Consultation With Sachin Jain | AstroJain",
+  title: "Book An Online Consultation With Sachin Jain",
   description:
-    "Book an online consultation with Jaipur astrologer Sachin Jain by video call, phone or WhatsApp. Call +91 96945 53351, WhatsApp, or send your birth details through the form.",
+    "Book an online consultation with Sachin Jain by video, phone or WhatsApp. Call +91 96945 53351 or send your details here.",
   path,
 });
 

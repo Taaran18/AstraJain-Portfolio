@@ -47,7 +47,7 @@ export const galleryItems: GalleryItem[] = [
     alt: "Sachin Jain at his consultation desk with a gemstone tree beside him",
     title: "Ready For Your Session",
     description:
-      "Your kundli is prepared before you arrive, so the full session is spent on your questions rather than on calculations.",
+      "Your kundli is prepared before your online session, so the full time is spent on your questions rather than on calculations.",
     category: "Consultations",
     href: "/services/horoscope-reading",
   },

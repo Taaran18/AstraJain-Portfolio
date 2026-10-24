@@ -8,7 +8,7 @@ const path = "/disclaimer";
 export const metadata: Metadata = pageMetadata({
   title: "Disclaimer",
   description:
-    "Important information about astrology readings, remedies and gemstone advice from AstroJain, and why they do not replace medical, legal or financial advice.",
+    "Why astrology readings, remedies and gemstone advice from AstroJain do not replace medical, legal or financial advice.",
   path,
 });
 

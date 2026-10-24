@@ -136,6 +136,6 @@ export const promises: Commitment[] = [
   {
     icon: Clock,
     title: "Time For Every Question",
-    body: "Your chart is prepared before you arrive, so the full 45 to 60 minutes is spent on what matters to you.",
+    body: "Your chart is prepared before your session starts, so the full 45 to 60 minutes is spent on what matters to you.",
   },
 ];
