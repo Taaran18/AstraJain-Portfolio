@@ -1,283 +1,262 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { CheckCircle, Award, Star, Users } from "lucide-react";
-import AnimatedSection from "@/components/ui/AnimatedSection";
-import CTASection from "@/components/sections/CTASection";
-import { SERVICES, SITE_CONFIG } from "@/lib/constants";
+import Image from "next/image";
+import { Award, CheckCircle2, Languages, MapPin, Star, Users } from "lucide-react";
+import { PageHero } from "@/components/sections/PageHero";
+import { CtaSection } from "@/components/sections/CtaSection";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { ButtonLink } from "@/components/ui/Button";
+import { Reveal } from "@/components/ui/Reveal";
+import { servicePages } from "@/data/services";
+import { pageMetadata } from "@/lib/seo";
+import { primaryPhone, site } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "About Sachin Jain – Best Astrologer in Jaipur",
+const path = "/about";
+
+export const metadata: Metadata = pageMetadata({
+  title: "About Sachin Jain | Vedic Astrologer In Jaipur",
   description:
-    "Learn about Sachin Jain, Jaipur's most trusted Vedic astrologer with 20+ years of experience in horoscope reading, kundli, palmistry and Vastu Shastra.",
-  alternates: { canonical: "https://www.astrojain.in/about" },
-};
+    "Meet Sachin Jain of AstroJain, Jaipur: Vedic astrologer and face reading specialist known for honest readings, practical remedies and complete confidentiality.",
+  path,
+});
 
-const JOURNEY = [
+const journey = [
   {
-    year: "2002",
-    title: "Beginning of the Journey",
-    desc: "Sachin Jain began his formal study of Vedic Jyotish under renowned Jyotish Acharyas in Rajasthan, immersing himself in the classical texts of Brihat Parashara Hora Shastra and Jataka Parijata.",
+    year: "The Beginning",
+    title: "Formal Study Of Jyotish Begins",
+    body: "Sachin Jain begins studying Vedic Jyotish under respected acharyas in Rajasthan, working through classical texts such as the Brihat Parashara Hora Shastra and Jataka Parijata.",
   },
   {
-    year: "2005",
-    title: "Deep Specialization",
-    desc: "Expanded study to include palmistry, numerology, and Vastu Shastra — integrating multiple streams of Vedic knowledge into a holistic consultative approach.",
+    year: "Widening The Lens",
+    title: "Palmistry, Face Reading, Numerology And Vastu",
+    body: "He adds palmistry, face reading, numerology and Vastu Shastra, so that one reading can be checked against another rather than relying on a single method.",
   },
   {
-    year: "2010",
-    title: "Establishing AstroJain",
-    desc: "Founded AstroJain in Jaipur, bringing professional Vedic consultations to the public. Word of mouth and accurate predictions quickly built a loyal and growing clientele.",
+    year: "AstroJain",
+    title: "AstroJain Opens In Jaipur",
+    body: "AstroJain is founded to offer professional, transparent consultations. Word of mouth from satisfied families builds the practice.",
   },
   {
-    year: "2018",
+    year: "Online",
     title: "Online Consultations",
-    desc: "Extended services to online consultations, enabling clients across India and internationally to benefit from Sachin Ji's expertise via phone and video sessions.",
+    body: "Phone and video sessions bring the same careful readings to clients across India and abroad.",
   },
   {
-    year: "2024",
-    title: "Thousands of Lives Touched",
-    desc: "With over 5,000 satisfied clients and a reputation built purely on accuracy, compassion, and results, AstroJain stands as Jaipur's most trusted astrology practice.",
+    year: "Today",
+    title: `${site.clientsServed} Clients Guided`,
+    body: "Families return for kundli matching, career decisions, griha pravesh and business launches, and recommend Sachin Jain to friends.",
   },
 ];
 
-const EXPERTISE = [
-  { icon: Award, label: "Certified Jyotish Acharya" },
-  { icon: Star, label: "20+ Years Practice" },
-  { icon: Users, label: "5000+ Clients Served" },
-  { icon: CheckCircle, label: "100% Confidential" },
+const facts = [
+  { icon: MapPin, label: "Based in", value: "Jaipur · Online" },
+  { icon: Award, label: "Experience", value: site.experience },
+  { icon: Users, label: "Clients guided", value: site.clientsServed },
+  { icon: Languages, label: "Languages", value: site.languages.join(", ") },
 ];
 
 export default function AboutPage() {
   return (
     <>
-      {/* Hero */}
-      <section className="relative min-h-[50vh] flex items-center pt-20 overflow-hidden bg-cosmic-gradient">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-1/3 left-1/4 w-80 h-80 bg-cosmic-violet/20 rounded-full blur-[100px]" />
-          <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-indigo-900/20 rounded-full blur-[80px]" />
-        </div>
+      <PageHero
+        crumbs={[{ name: "About", path }]}
+        eyebrow="Meet Your Astrologer"
+        title="Sachin Jain: The Astrologer Families In Jaipur Trust With Big Decisions"
+        intro="Vedic astrologer and face reading specialist. Known for telling clients what their chart really shows, without fear, jargon or pressure."
+      />
 
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-          <AnimatedSection>
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <div className="h-px w-8 bg-cosmic-gold/50" />
-              <span className="font-cinzel text-xs tracking-[0.3em] uppercase text-cosmic-gold/80">
-                The Astrologer
-              </span>
-              <div className="h-px w-8 bg-cosmic-gold/50" />
-            </div>
-            <h1 className="font-cinzel text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-5 leading-tight">
-              About <span className="text-gold">Sachin Jain</span>
-            </h1>
-            <p className="font-cormorant text-xl text-cosmic-silver/75 max-w-2xl mx-auto leading-relaxed">
-              Two decades of Vedic wisdom, thousands of lives illuminated,
-              and one unwavering purpose — to guide you toward your highest
-              destiny.
-            </p>
-          </AnimatedSection>
-        </div>
-      </section>
-
-      {/* Expertise badges */}
-      <section className="relative bg-cosmic-deep/60 border-y border-[rgba(212,168,67,0.1)]">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {EXPERTISE.map(({ icon: Icon, label }, i) => (
-              <AnimatedSection key={i} delay={i * 80} direction="fade">
-                <div className="flex items-center gap-3">
-                  <Icon size={18} className="text-cosmic-gold flex-shrink-0" />
-                  <span className="text-sm text-cosmic-silver/70 font-inter">{label}</span>
-                </div>
-              </AnimatedSection>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Main bio */}
-      <section className="section-padding">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-5 gap-12 items-start">
-
-            {/* Profile card */}
-            <AnimatedSection direction="left" className="lg:col-span-2">
-              <div className="glass-card rounded-2xl p-8 sticky top-28">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-cosmic-violet via-indigo-900 to-cosmic-deep flex items-center justify-center border-2 border-[rgba(212,168,67,0.4)] shadow-gold-md">
-                    <span className="font-cinzel text-3xl font-bold text-cosmic-gold">S</span>
-                  </div>
-                  <div>
-                    <h2 className="font-cinzel text-xl font-bold text-white">Sachin Jain</h2>
-                    <p className="text-xs text-cosmic-gold/70 tracking-wider mt-0.5">
-                      Jyotish Acharya & Vedic Astrologer
-                    </p>
-                    <div className="flex gap-1 mt-2">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} size={12} className="text-cosmic-gold fill-cosmic-gold" />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="gold-divider mb-5" />
-
-                <div className="space-y-4 mb-6">
-                  {[
-                    ["Location", "Jaipur, Rajasthan, India"],
-                    ["Practice", "Vedic Astrology & Jyotish"],
-                    ["Experience", "20+ Years"],
-                    ["Languages", "Hindi, English"],
-                    ["Consultations", "In-person & Online"],
-                  ].map(([label, value]) => (
-                    <div key={label} className="flex justify-between text-sm">
-                      <span className="text-cosmic-silver/40">{label}</span>
-                      <span className="text-cosmic-silver/80">{value}</span>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="gold-divider mb-5" />
-
-                <div className="flex flex-col gap-3">
-                  <Link href="/contact#book" className="btn-gold text-center text-xs py-3">
-                    Book Consultation
-                  </Link>
-                  <a
-                    href={`tel:${SITE_CONFIG.phone1.replace(/\s/g, "")}`}
-                    className="btn-cosmic text-center text-xs py-3"
-                  >
-                    {SITE_CONFIG.phone1}
-                  </a>
-                </div>
+      <section className="section" aria-labelledby="story-heading">
+        <div className="container-site grid items-start gap-10 lg:grid-cols-12 lg:gap-16">
+          <Reveal className="mx-auto w-full max-w-md lg:sticky lg:top-28 lg:col-span-5 lg:max-w-none">
+            <div className="card overflow-hidden">
+              <div className="relative aspect-[4/5] bg-tint">
+                <Image
+                  src="/images/sachin-jain-astrologer-jaipur-portrait.jpg"
+                  alt="Portrait of Vedic astrologer Sachin Jain"
+                  fill
+                  preload
+                  sizes="(min-width: 1024px) 420px, 100vw"
+                  className="object-cover object-top"
+                />
               </div>
-            </AnimatedSection>
-
-            {/* Bio text */}
-            <AnimatedSection direction="right" className="lg:col-span-3">
-              <div className="space-y-6">
-                <div>
-                  <h3 className="font-cinzel text-xl text-white mb-4">
-                    A Life Devoted to Vedic Wisdom
-                  </h3>
-                  <div className="space-y-4 font-cormorant text-lg text-cosmic-silver/75 leading-relaxed">
-                    <p>
-                      Sachin Jain was drawn to the stars from an early age,
-                      fascinated by the ancient science that could reveal the
-                      invisible patterns shaping human lives. What began as a
-                      deeply personal spiritual inquiry became a lifelong
-                      calling — and ultimately, a mission to serve others.
-                    </p>
-                    <p>
-                      Trained formally in Vedic Jyotish under distinguished
-                      Acharyas in Rajasthan, Sachin Ji spent years mastering
-                      the classical texts — the Brihat Parashara Hora Shastra,
-                      Jataka Parijata, and Phaladeepika — before integrating
-                      this timeless knowledge with modern analytical approaches.
-                    </p>
-                    <p>
-                      His approach is holistic and compassionate. He understands
-                      that astrology is not merely about prediction — it is about
-                      empowering people with self-awareness, helping them
-                      navigate challenges with grace, and timing important
-                      decisions with cosmic wisdom.
-                    </p>
-                    <p>
-                      Over two decades and thousands of consultations later,
-                      Sachin Ji&apos;s reputation rests on three pillars:
-                      remarkable accuracy, genuine care for his clients, and
-                      practical, actionable guidance. He has helped people
-                      across India and abroad find resolution in matters of
-                      marriage, career, health, finance, and personal growth.
-                    </p>
+              <div className="p-6">
+                <div className="flex items-center justify-between gap-4">
+                  <div>
+                    <h2 className="font-sans text-xl font-semibold tracking-normal">
+                      {site.astrologer}
+                    </h2>
+                    <p className="text-sm text-fg-muted">Vedic Astrologer And Face Reader</p>
                   </div>
-                </div>
-
-                {/* Specializations */}
-                <div>
-                  <h3 className="font-cinzel text-xl text-white mb-5">
-                    Areas of Expertise
-                  </h3>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                    {SERVICES.map((s) => (
-                      <div
-                        key={s.id}
-                        className="glass-card rounded-lg p-3 flex items-center gap-2.5"
-                      >
-                        <span className="text-lg">{s.icon}</span>
-                        <span className="text-xs text-cosmic-silver/70">{s.title}</span>
-                      </div>
+                  <div className="flex gap-0.5 text-gold" aria-label="Rated 5 out of 5 by clients">
+                    {Array.from({ length: 5 }, (_, i) => (
+                      <Star key={i} size={16} className="fill-current" aria-hidden="true" />
                     ))}
                   </div>
                 </div>
-              </div>
-            </AnimatedSection>
-          </div>
-        </div>
-      </section>
-
-      {/* Journey Timeline */}
-      <section className="section-padding bg-gradient-to-b from-cosmic-deep/60 to-transparent">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection>
-            <div className="text-center mb-12">
-              <div className="flex items-center justify-center gap-3 mb-4">
-                <div className="h-px w-8 bg-cosmic-gold/50" />
-                <span className="font-cinzel text-xs tracking-[0.3em] uppercase text-cosmic-gold/80">
-                  The Journey
-                </span>
-                <div className="h-px w-8 bg-cosmic-gold/50" />
-              </div>
-              <h2 className="font-cinzel text-3xl md:text-4xl font-bold text-white">
-                Two Decades of <span className="text-gold">Dedication</span>
-              </h2>
-            </div>
-          </AnimatedSection>
-
-          <div className="relative">
-            {/* Timeline line */}
-            <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-cosmic-gold/30 to-transparent" />
-
-            <div className="space-y-8">
-              {JOURNEY.map((item, i) => (
-                <AnimatedSection key={i} delay={i * 100}>
-                  <div
-                    className={`relative flex ${
-                      i % 2 === 0
-                        ? "md:flex-row"
-                        : "md:flex-row-reverse"
-                    } items-center gap-6 md:gap-0`}
-                  >
-                    {/* Year badge */}
-                    <div className="absolute left-8 md:left-1/2 -translate-x-1/2 w-14 h-7 glass-card rounded-full flex items-center justify-center z-10">
-                      <span className="font-cinzel text-xs text-cosmic-gold font-semibold">
-                        {item.year}
-                      </span>
-                    </div>
-
-                    {/* Card */}
-                    <div
-                      className={`ml-20 md:ml-0 md:w-5/12 ${
-                        i % 2 === 0 ? "md:pr-12" : "md:pl-12 md:ml-auto"
-                      }`}
-                    >
-                      <div className="glass-card rounded-xl p-5">
-                        <h3 className="font-cinzel text-sm font-semibold text-cosmic-gold mb-2">
-                          {item.title}
-                        </h3>
-                        <p className="text-sm text-cosmic-silver/65 leading-relaxed">
-                          {item.desc}
-                        </p>
+                <dl className="mt-5 grid grid-cols-2 gap-4 border-t border-line pt-5">
+                  {facts.map((f) => {
+                    const Icon = f.icon;
+                    return (
+                      <div key={f.label}>
+                        <dt className="flex items-center gap-1.5 text-xs uppercase tracking-[0.12em] text-fg-subtle">
+                          <Icon size={14} aria-hidden="true" /> {f.label}
+                        </dt>
+                        <dd className="mt-1 font-semibold text-fg">{f.value}</dd>
                       </div>
-                    </div>
-                  </div>
-                </AnimatedSection>
-              ))}
+                    );
+                  })}
+                </dl>
+                <div className="mt-6 grid gap-3">
+                  <ButtonLink href="/contact#book">Book A Consultation</ButtonLink>
+                  <ButtonLink href={`tel:${primaryPhone.tel}`} variant="secondary">
+                    Call {primaryPhone.display}
+                  </ButtonLink>
+                </div>
+              </div>
             </div>
+          </Reveal>
+
+          <div className="lg:col-span-7">
+            <SectionHeading
+              id="story-heading"
+              title="A Life Devoted To Vedic Wisdom"
+              className="mb-6"
+            />
+            <div className="prose-site max-w-none text-lg">
+              <p>
+                Sachin Jain was drawn to the stars early, fascinated by a science that could reveal
+                the patterns shaping a person&apos;s life. What began as a personal spiritual
+                inquiry became a lifelong calling to help others.
+              </p>
+              <p>
+                Trained formally in Vedic Jyotish under respected acharyas in Rajasthan, he spent
+                years with the classical texts before combining them with palmistry, face reading,
+                numerology and Vastu. Today he is especially known in Jaipur as a{" "}
+                <strong>face reading astrologer</strong>: he reads the permanent features of your
+                face and confirms every observation against your birth chart.
+              </p>
+              <p>
+                Many clients come to him after a reading elsewhere left them more frightened than
+                before, or after being asked to pay for expensive pujas. His approach is the
+                opposite.{" "}
+                <strong>Read carefully, explain plainly, and suggest only what is needed.</strong>{" "}
+                Many of his remedies cost nothing at all.
+              </p>
+              <p>
+                Over 40 years, families have consulted him on marriage, career, health, finance and
+                property, consulting online with clients across India and abroad.
+              </p>
+            </div>
+
+            <h3 className="mt-12 text-display-sm">How Sachin Jain Works</h3>
+            <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+              {[
+                "Your chart is prepared before the session",
+                "Kundli, palm and face cross-checked",
+                "Plain answers in Hindi or English",
+                "Remedies only when your chart needs them",
+                "No pressure to buy stones or pujas",
+                "Complete confidentiality, always",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-2.5 text-fg-muted">
+                  <CheckCircle2
+                    size={18}
+                    className="mt-0.5 shrink-0 text-success"
+                    aria-hidden="true"
+                  />
+                  {item}
+                </li>
+              ))}
+            </ul>
+
+            <h3 className="mt-12 text-display-sm">Areas Of Expertise</h3>
+            <ul className="mt-5 flex flex-wrap gap-2">
+              {servicePages.map((s) => (
+                <li key={s.slug}>
+                  <ButtonLink href={`/services/${s.slug}`} variant="secondary" size="sm">
+                    {s.name}
+                  </ButtonLink>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>
 
-      <CTASection />
+      <section className="section border-y border-line bg-tint" aria-labelledby="journey-heading">
+        <div className="container-site max-w-4xl">
+          <SectionHeading
+            id="journey-heading"
+            eyebrow="The Journey"
+            title="40 Years Of Practice"
+            align="center"
+          />
+          <ol className="relative space-y-6 border-l-2 border-gold/40 pl-6 md:pl-10">
+            {journey.map((item, i) => (
+              <Reveal as="li" key={item.year} delay={i * 0.06} className="relative">
+                <span
+                  aria-hidden="true"
+                  className="absolute -left-[calc(1.5rem+7px)] top-6 h-3 w-3 rounded-full bg-brand ring-4 ring-tint md:-left-[calc(2.5rem+7px)]"
+                />
+                <div className="card p-5 md:p-6">
+                  <p className="font-display text-sm font-semibold tracking-[0.14em] text-gold">
+                    {item.year}
+                  </p>
+                  <h3 className="mt-1 font-sans text-lg font-semibold tracking-normal">
+                    {item.title}
+                  </h3>
+                  <p className="mt-2 text-fg-muted">{item.body}</p>
+                </div>
+              </Reveal>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <section className="section" aria-labelledby="photos-heading">
+        <div className="container-site">
+          <SectionHeading id="photos-heading" eyebrow="Gallery" title="Behind Every Reading" />
+          <ul className="grid grid-cols-2 gap-4 md:grid-cols-4">
+            {[
+              {
+                src: "/images/sachin-jain-vedic-astrologer-office.jpg",
+                alt: "Sachin Jain at his office desk",
+              },
+              {
+                src: "/images/sachin-jain-astrology-office-jaipur.jpg",
+                alt: "Sachin Jain's consultation room",
+              },
+              {
+                src: "/images/sachin-jain-traditional-attire.jpg",
+                alt: "Sachin Jain in traditional dress",
+              },
+              {
+                src: "/images/sachin-jain-astrologer-event.jpg",
+                alt: "Sachin Jain at a cultural event",
+              },
+            ].map((p) => (
+              <li
+                key={p.src}
+                className="relative aspect-[3/4] overflow-hidden rounded-card border border-line bg-tint"
+              >
+                <Image
+                  src={p.src}
+                  alt={p.alt}
+                  fill
+                  sizes="(min-width: 768px) 25vw, 50vw"
+                  className="object-cover"
+                />
+              </li>
+            ))}
+          </ul>
+          <div className="mt-8">
+            <ButtonLink href="/gallery" variant="secondary">
+              See The Full Gallery
+            </ButtonLink>
+          </div>
+        </div>
+      </section>
+
+      <CtaSection />
     </>
   );
 }

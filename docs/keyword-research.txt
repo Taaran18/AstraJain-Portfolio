@@ -1,0 +1,862 @@
+ASTROJAIN - KEYWORD RESEARCH (JAIPUR FIRST, THEN ONLINE / ALL-INDIA)
+======================================================================
+Date of research : 2026-10-24 (all sources below accessed on this date)
+Market          : Jaipur city first (Vaishali Nagar and west Jaipur in particular), then
+                  the rest of Rajasthan, then all-India and NRI clients for online,
+                  phone and video consultations.
+Business        : AstroJain (www.astrojain.in). Sachin Jain, Vedic astrologer.
+                  F-18, 1st Floor, Gautam Marg, Sector 6, Vaishali Nagar, Jaipur 302021.
+                  +91 96945 53351 / +91 78780 95569. In-person in Jaipur and online.
+Services        : Horoscope / birth chart (kundli) reading, Vedic astrology (jyotish),
+                  kundli matching (incl. Mangal dosha), palmistry, numerology (name
+                  correction, business name), gemstone consultation, Vastu Shastra
+                  (home and commercial), muhurta, career / marriage / business / health
+                  guidance and remedies.
+Client claims   : "20+ years of practice" and "5000+ clients" were supplied by the
+                  client. They are UNVERIFIED. Do not put them in titles or meta
+                  descriptions until the client can back them up (see section 9).
+Site pages      : /, /about, /services, /services/horoscope-reading,
+                  /services/kundli-matching, /services/palmistry, /services/numerology,
+                  /services/gemstone-consultation, /services/vastu-shastra, /gallery,
+                  /contact
+
+
+------------------------------------------------------------------------------------------
+1. READ THIS FIRST: WHAT THE NUMBERS ARE AND ARE NOT
+------------------------------------------------------------------------------------------
+
+PLAIN SUMMARY FOR THE CLIENT
+  - No free public tool gave us a monthly search count for any Jaipur astrology phrase
+    (for example "astrologer in jaipur"). Every Jaipur and Rajasthan volume in this file
+    is therefore marked "n/a" (unavailable). We have NOT guessed numbers for them.
+  - Real, published India volumes were found for a handful of big national terms
+    ("kundli", "kundali matching", "kundali milan", "numerology", "astrology", "gemstone",
+    "birth chart reading" and a few others). These come from Semrush and Ahrefs public
+    pages and from Rankhero. They are shown with their source.
+  - Semrush and Ahrefs disagree a lot. Example: "kundli" is 450,000 a month on Semrush but
+    68,000 on Ahrefs (about 6.6 times apart). Treat every number as "roughly this big",
+    not as an exact count.
+  - Google Trends, which we normally use to turn those national numbers into local
+    estimates, refused every request during this session (HTTP 429 "too many requests",
+    then a Google "unusual traffic" page). So this file has NO Trends-based estimates and
+    NO measured seasonality. Section 6 explains what we expect and how to check it.
+  - Instead, every keyword was checked in Google's own search suggestions (autocomplete,
+    India settings). If Google suggests a phrase, real people type it often enough for
+    Google to remember it. This gives a RELATIVE ranking (tiers T3 to T5 below), not a
+    count.
+  - Big national terms like "kundli" or "kundali matching" are mostly people using free
+    online calculators (AstroSage, Astrotalk). Few of them will pay a Jaipur astrologer.
+    The smaller Jaipur phrases matter more because nearly everyone who types them wants to
+    book someone.
+
+TOOLS THAT WORKED (accessed 2026-10-24)
+  a) Semrush public "Website Traffic" pages (semrush.com/website/<domain>/overview/). Each
+     shows that site's top 5 organic keywords with an India monthly volume, data month
+     September 2026. Used: astrotalk.com, astrosage.com, astroyogi.com, ganeshaspeaks.com,
+     clickastro.com, prokerala.com, vinaybajrangi.com, astroindia.com, astrodisha.com.
+     Search-result snippets of astrologicalmusings.com (April 2026) and brajeshgautam.com
+     (July 2026) pages were also seen.
+  b) Ahrefs public website pages (ahrefs.com/websites/<domain>, which redirect to
+     ahrefstop.com/websites/<domain>). Top 5 India keywords with volume, no data month
+     shown. Used: astrotalk.com, astrosage.com, astroyogi.com, ganeshaspeaks.com,
+     premastrologer.com.
+  c) Rankhero keyword pages (rankhero.com/keywords/<phrase>). Give a global volume and
+     sometimes an India split. The page does not name its data source and its tag tool
+     mentions Etsy search data, so its figures are treated as LOW confidence. Trend window
+     shown: September 2025 to August 2026.
+  d) Google autocomplete (suggestqueries.google.com, India region, English interface,
+     accessed 2026-10-24). 88 seed phrases checked in English, Hinglish and Hindi. Gives
+     no numbers; used for tiers, intent and pain points.
+  e) Web search and page reads of competitor sites, directories (WeddingWire, JaipurLove,
+     Jaipur Unveiled, AddressGuru, RealEstateIndia), review and complaint sites
+     (Trustpilot, Voxya, ConsumerComplaints.in) and news reports, for the competitor and
+     pain-point sections.
+
+TOOLS THAT DID NOT WORK (accessed 2026-10-24)
+  - Google Trends (trends.google.com explore API, both .com and .co.in): HTTP 429 and a
+    Google "sorry / unusual traffic" page on every attempt. A retry loop probed it 14
+    times, 3 minutes apart (about 40 minutes), with the same result each time. WebFetch of
+    the same URL also returned 429.
+  - Semrush Keyword Overview (semrush.com/analytics/keywordoverview/?q=...&db=in): page
+    shows no volume without a login.
+  - Ahrefs Keyword Generator (ahrefs.com/keyword-generator): no figures returned to a
+    plain page fetch (needs a browser script / captcha).
+  - Google Keyword Planner, Ubersuggest, Moz, Keywords Everywhere: need an account; not
+    attempted.
+  - Semrush pages for Jaipur astrologer sites (rajeshshrimali.com, rudrakshshrimali.com,
+    acharyalavbhushan.com, astrohemant.com, aghordham.com), and for mahavastu.com,
+    anytimeastro.com, astrolearn.co: HTTP 404 (too small for Semrush to publish).
+  - Ahrefs pages for rajeshshrimali.com, acharyalavbhushan.com, clickastro.com,
+    instaastro.com, vinaybajrangi.com: HTTP 404.
+  - Rankhero pages for "astrologer near me", "kundli matching" and "kundli": HTTP 404.
+    Rankhero "astrology consultation": page exists but says "No Data".
+  - Astrotalk and Astroyogi Jaipur pages: content loads by script, only the title could be
+    read.
+  - Web searches for published Indian astrology keyword-volume tables: none found.
+
+HOW TO READ THE TABLES
+  - India/mo = monthly searches in India, as published by the source. "n/a" = no source
+    published a number. Where only a close variant has a number, it is shown as "~
+    variant" and explained in the notes.
+  - Jaipur = Jaipur / Rajasthan monthly searches. No source gave any, so this column is
+    "n/a" throughout. It is kept so the column can be filled from Google Keyword Planner
+    later (section 10).
+  - Src: S = Semrush public page (India, Sep 2026). A = Ahrefs public page (India). R =
+    Rankhero (source unnamed). G = Google autocomplete only (no number).
+  - Conf (confidence in the India number): Med = published by Semrush or Ahrefs; Low =
+    Rankhero, or tools disagree by more than 3 times; n/a = no number.
+  - Tier (relative demand, from autocomplete, shown in India/mo when no number exists): T3
+    = Google suggests the phrase AND 5 or more longer versions of it (steady demand). T4 =
+    Google suggests the phrase with 0 to 4 longer versions, or the phrase was seen only as
+    a suggestion for another seed (smaller but real demand). T5 = Google suggests nothing
+    for it (lowest; may still get a few searches). Tiers rank phrases against each other
+    only; a T3 city phrase is still far smaller than a T3 national phrase.
+  - Int (intent): Lc = local, wants to visit or call someone in Jaipur. Tr = wants to book
+    or buy, location not stated. In = wants information. Tl = wants a free online
+    calculator. Mx = mixed.
+  - Rel (relevance to AstroJain): H / M / L.
+  - Page: HOME = /, ABOUT = /about, SERV = /services, HORO = /services/horoscope-reading,
+    KUND = /services/kundli-matching, PALM = /services/palmistry, NUM =
+    /services/numerology, GEM = /services/gemstone-consultation, VASTU =
+    /services/vastu-shastra, GALL = /gallery, CONT = /contact. "+FAQ" means answer it in
+    an FAQ block on that page. "+blog" means a future article (not in the current site)
+    would suit it better.
+
+LIMITATIONS
+  - No Jaipur, Rajasthan or seasonal numbers could be measured in this pass.
+  - Published volumes cover only the few phrases that big astrology sites happen to rank
+    for. Semrush and Ahrefs disagree by up to 6.6 times on the same phrase.
+  - Autocomplete reflects popularity but also recency and personalisation; it was
+    requested without login and with India settings to reduce that.
+  - Competition notes are judgement from who appears in search results, not a tool
+    difficulty score.
+
+
+------------------------------------------------------------------------------------------
+2. NUMBERS WE ACTUALLY FOUND (India, monthly, all accessed 2026-10-24)
+------------------------------------------------------------------------------------------
+
+ Keyword                    | Volume    | Source and page
+ ---------------------------+-----------+--------------------------------------------------
+ kundli                     | 450,000   | Semrush, astrotalk.com and astroyogi.com pages,
+                            |           | Sep 2026
+ kundli                     | 68,000    | Ahrefs, astrosage.com page (disagrees with
+                            |           | Semrush)
+ kundali                    | 450,000   | Semrush, vinaybajrangi.com page, Sep 2026
+ kundali                    | 69,000    | Ahrefs, astrosage.com page
+ kundali matching           | 301,000   | Semrush, astrotalk.com and astrosage.com pages,
+                            |           | Sep 2026
+ kundali milan              | 83,000    | Ahrefs, astrosage.com page
+ kundali online / kundli online
+                            | 18,000    | Ahrefs, astrotalk.com page (each)
+ online kundali             | 16,000    | Ahrefs, astrotalk.com page
+ astrology                  | 301,000   | Semrush, astrosage.com page, Sep 2026
+ numerology                 | 110,000   | Rankhero (India split of 368,000 global)
+ numerology calculator      | 54,000    | Ahrefs, premastrologer.com page
+ gemstone                   | 40,500    | Rankhero (India split of 201,000 global)
+ astrological stone         | 1,300     | Rankhero (81% of 1,600 global)
+ astrology reading          | 1,000     | Rankhero (12% of 8,100 global)
+ birth chart reading        | 880       | Rankhero (6% of 14,800 global)
+ astrotalk free chat        | 18,100    | Semrush, astrotalk.com page (shows demand for
+                            |           | chat)
+ rashifal / aaj ka rashifal | 550K/450K | Semrush, astrosage / astrotalk (context)
+ horoscope today            | 550,000   | Semrush, ganeshaspeaks.com page (context only)
+ brand: astroindia          | 3,600     | Semrush, astroindia.com page (small-site
+                            |           | reference)
+ brand: "sachin malhotra astrologer"
+                            | 720       | Semrush snippet, astrologicalmusings.com
+ brand: "brajesh gautam astrologer"
+                            | 480       | Semrush snippet, brajeshgautam.com
+
+GLOBAL ONLY (Rankhero, no India split given; context, not used for ranking)
+  - astrologer 1,830,000 (looks inflated); palm reading 201,000; vedic astrology 90,500;
+    palmistry 49,500; vastu 49,500; vastu shastra 49,500; numerology reading 12,100;
+    horoscope reading 5,400.
+
+WHAT THIS TELLS US
+  - Kundli matching is the single biggest service demand in India (hundreds of thousands a
+    month), but it is mostly free-calculator traffic owned by AstroSage, Astrotalk and
+    Prokerala. AstroJain should target the human, paid version: "kundli matching for
+    marriage" + Jaipur + Manglik worries.
+  - Numerology (110,000) and gemstones (40,500) are large national topics; numerology is a
+    realistic second service page to grow.
+  - Personal-brand searches for astrologers with an online presence run at a few hundred a
+    month (720 and 480 above). That is a realistic 12-month target for "sachin jain
+    astrologer" if the client builds Google reviews, YouTube or press.
+
+
+------------------------------------------------------------------------------------------
+3. KEYWORD TABLES BY GROUP
+------------------------------------------------------------------------------------------
+
+3.1 HEAD TERMS (Jaipur and "near me")
+
+ Keyword                      | India/mo       | Jaipur  | Src  | Conf | Int | Rel | Page
+ -----------------------------+----------------+---------+------+------+-----+-----+------
+ astrologer in jaipur         | n/a T3         | n/a     | G    | n/a  | Lc  | H   | HOME
+ best astrologer in jaipur    | n/a T3         | n/a     | G    | n/a  | Lc  | H   | HOME
+ astrologer near me           | n/a T3         | n/a     | G    | n/a  | Lc  | H   | HOME
+ astrologer jaipur / jaipur   | n/a T3         | n/a     | G    | n/a  | Lc  | H   | HOME
+ astrologer                   |                |         |      |      |     |     |
+ famous astrologer in jaipur  | n/a T3         | n/a     | G    | n/a  | Lc  | H   | ABOUT
+ top astrologer in jaipur     | n/a T4         | n/a     | G    | n/a  | Lc  | H   | HOME
+ astrologer in vaishali nagar | n/a T4         | n/a     | G    | n/a  | Lc  | H   | CONT
+ (jaipur)                     |                |         |      |      |     |     |
+ best astrologer in vaishali  | n/a T4         | n/a     | G    | n/a  | Lc  | H   | CONT
+ nagar jaipur                 |                |         |      |      |     |     |
+ astrologer in mansarovar     | n/a T4         | n/a     | G    | n/a  | Lc  | M   | CONT
+ jaipur                       |                |         |      |      |     |     |
+ vedic astrologer jaipur      | n/a T4         | n/a     | G    | n/a  | Lc  | H   | ABOUT
+ vedic astrologer (near me)   | n/a T3         | n/a     | G    | n/a  | Mx  | H   | ABOUT
+ vedic astrology              | ~90,500 global | n/a     | R    | Low  | In  | M   | HORO
+ astrologer in rajasthan /    | n/a T3         | n/a     | G    | n/a  | Lc  | M   | HOME
+ best astrologer in rajasthan |                |         |      |      |     |     |
+ astrologer near me with fees | n/a T3         | n/a     | G    | n/a  | Lc  | H   | SERV
+ astrology                    | 301,000        | n/a     | S    | Med  | In  | L   | -
+
+Notes
+  - "astrologer in jaipur" autocomplete adds: near me, rajasthan, city, mansarovar,
+    vaishali nagar, best, famous, top. "best astrologer in jaipur" adds quora, reddit and
+    a named rival (ramkrishna shastri), which shows people research reputations before
+    booking. "top astrologer in jaipur" and the "best ... vaishali nagar" phrase were seen
+    as suggestions, not tested as seeds.
+  - "near me" rankings come mostly from the Google Business Profile (Maps), not the
+    website. The site helps by repeating the exact address, phone and area names.
+  - Vaishali Nagar is AstroJain's own locality and appears in autocomplete. WeddingWire
+    lists 7 of its 25 Jaipur astrologers in Vaishali Nagar, so it is contested but worth
+    owning on /contact and the home page.
+
+3.2 SERVICE TERMS
+
+ Kundli matching
+ Keyword                      | India/mo       | Jaipur  | Src  | Conf | Int | Rel | Page
+ -----------------------------+----------------+---------+------+------+-----+-----+------
+ kundali matching             | 301,000        | n/a     | S    | Med  | Tl  | M   | KUND
+ kundali milan                | 83,000         | n/a     | A    | Med  | Tl  | M   | KUND
+ kundli matching              | ~ kundali      | n/a     | G    | n/a  | Tl  | M   | KUND
+                              | matching       |         |      |      |     |     |
+ kundli milan                 | ~ kundali      | n/a     | G    | n/a  | Tl  | M   | KUND
+                              | milan          |         |      |      |     |     |
+ kundli matching for marriage | n/a T3         | n/a     | G    | n/a  | Mx  | H   | KUND
+ kundali milan in jaipur      | n/a T4         | n/a     | G    | n/a  | Lc  | H   | KUND
+ kundli matching jaipur       | n/a T5         | n/a     | G    | n/a  | Lc  | H   | KUND
+ kundli matching without      | n/a T4         | n/a     | G    | n/a  | Mx  | H   | KUND
+ birth time                   |                |         |      |      |     |     | +FAQ
+ manglik dosha / manglik dosh | n/a T3         | n/a     | G    | n/a  | In  | H   | KUND
+ manglik dosha cancellation   | n/a T4         | n/a     | G    | n/a  | In  | H   | KUND
+                              |                |         |      |      |     |     | +FAQ
+
+ Horoscope / birth chart reading
+ Keyword                      | India/mo       | Jaipur  | Src  | Conf | Int | Rel | Page
+ -----------------------------+----------------+---------+------+------+-----+-----+------
+ kundli / kundali             | 450,000 (S);   | n/a     | S A  | Low  | Tl  | M   | HORO
+                              | 68-69K (A)     |         |      |      |     |     |
+ kundli online / kundali      | 18,000         | n/a     | A    | Med  | Tl  | L   | HORO
+ online                       |                |         |      |      |     |     |
+ kundli reading               | n/a T3         | n/a     | G    | n/a  | Mx  | H   | HORO
+ horoscope reading            | n/a T3 (5,400  | n/a     | G R  | n/a  | Mx  | H   | HORO
+                              | global)        |         |      |      |     |     |
+ birth chart reading          | 880            | n/a     | R    | Low  | Mx  | H   | HORO
+ astrology reading            | 1,000          | n/a     | R    | Low  | Mx  | M   | HORO
+ astrology reading jaipur     | n/a T4*        | n/a     | G    | n/a  | Lc  | H   | HORO
+ horoscope 2027               | n/a T3         | n/a     | G    | n/a  | In  | L   | +blog
+
+  * seen only as Google's suggestion for "horoscope reading jaipur", which itself got no
+    suggestion. So Jaipur searchers say "astrology reading" or "astrologer", not
+    "horoscope reading".
+
+ Palmistry
+ Keyword                      | India/mo       | Jaipur  | Src  | Conf | Int | Rel | Page
+ -----------------------------+----------------+---------+------+------+-----+-----+------
+ palm reading                 | n/a (201,000   | n/a     | R G  | n/a  | Mx  | M   | PALM
+                              | global)        |         |      |      |     |     |
+ palmistry                    | n/a (49,500    | n/a     | R    | n/a  | In  | M   | PALM
+                              | global)        |         |      |      |     |     |
+ palmist in jaipur            | n/a T3         | n/a     | G    | n/a  | Lc  | H   | PALM
+ best / famous palmist in     | n/a T4         | n/a     | G    | n/a  | Lc  | H   | PALM
+ jaipur                       |                |         |      |      |     |     |
+ palmistry jaipur             | n/a T4         | n/a     | G    | n/a  | Lc  | H   | PALM
+ palm reading jaipur          | n/a T4         | n/a     | G    | n/a  | Lc  | H   | PALM
+
+ Numerology
+ Keyword                      | India/mo       | Jaipur  | Src  | Conf | Int | Rel | Page
+ -----------------------------+----------------+---------+------+------+-----+-----+------
+ numerology                   | 110,000        | n/a     | R    | Low  | In  | M   | NUM
+ numerology calculator        | 54,000         | n/a     | A    | Med  | Tl  | L   | NUM
+ numerologist in jaipur       | n/a T4         | n/a     | G    | n/a  | Lc  | H   | NUM
+ numerology jaipur            | n/a T3         | n/a     | G    | n/a  | Lc  | H   | NUM
+ name correction numerology   | n/a T3         | n/a     | G    | n/a  | Mx  | H   | NUM
+ numerology for business name | n/a T3         | n/a     | G    | n/a  | Mx  | H   | NUM
+
+ Gemstones
+ Keyword                      | India/mo       | Jaipur  | Src  | Conf | Int | Rel | Page
+ -----------------------------+----------------+---------+------+------+-----+-----+------
+ gemstone                     | 40,500         | n/a     | R    | Low  | Mx  | L   | -
+ astrological stone           | 1,300          | n/a     | R    | Low  | Mx  | M   | GEM
+ gemstone recommendation      | n/a T3         | n/a     | G    | n/a  | Mx  | H   | GEM
+ gemstone consultation        | n/a T3         | n/a     | G    | n/a  | Tr  | H   | GEM
+ which gemstone should i wear | n/a T3         | n/a     | G    | n/a  | In  | H   | GEM
+                              |                |         |      |      |     |     | +FAQ
+ lucky gemstone (by date of   | n/a T3         | n/a     | G    | n/a  | Tl  | M   | GEM
+ birth)                       |                |         |      |      |     |     |
+ gemstone jaipur              | n/a T3         | n/a     | G    | n/a  | Mx  | L   | -
+
+  "which gemstone should i wear" was the first of Google's suggestions for "which gemstone".
+  "gemstone jaipur" is about buying stones in Jaipur's gem market (wholesale, shops). Do
+  not target it; it would bring the wrong visitors.
+
+ Vastu Shastra
+ Keyword                      | India/mo       | Jaipur  | Src  | Conf | Int | Rel | Page
+ -----------------------------+----------------+---------+------+------+-----+-----+------
+ vastu / vastu shastra        | n/a (49,500    | n/a     | R    | n/a  | In  | M   | VASTU
+                              | global)        |         |      |      |     |     |
+ vastu consultant jaipur      | n/a T3         | n/a     | G    | n/a  | Lc  | H   | VASTU
+ best / top vastu consultant  | n/a T4         | n/a     | G    | n/a  | Lc  | H   | VASTU
+ in jaipur                    |                |         |      |      |     |     |
+ vastu expert jaipur          | n/a T4         | n/a     | G    | n/a  | Lc  | H   | VASTU
+ vastu consultant near me     | n/a T3         | n/a     | G    | n/a  | Lc  | H   | VASTU
+ (with fees)                  |                |         |      |      |     |     |
+ vastu for home               | n/a T3         | n/a     | G    | n/a  | In  | M   | VASTU
+ vastu for office             | n/a T3         | n/a     | G    | n/a  | In  | M   | VASTU
+ vastu jaipur                 | n/a T3         | n/a     | G    | n/a  | Mx  | L   | -
+
+  "vastu jaipur" is polluted by unrelated brands (Vastu Finance, Vastu Nagar). Use
+  "vastu consultant in jaipur" instead.
+
+3.3 ONLINE CONSULTATION TERMS
+
+ Keyword                      | India/mo       | Jaipur  | Src  | Conf | Int | Rel | Page
+ -----------------------------+----------------+---------+------+------+-----+-----+------
+ online astrology             | n/a T3         | n/a     | G    | n/a  | Tr  | H   | SERV
+ consultation                 |                |         |      |      |     |     |
+ online astrologer            | n/a T3         | n/a     | G    | n/a  | Tr  | H   | SERV
+ consultation                 |                |         |      |      |     |     |
+ talk to astrologer           | n/a T3         | n/a     | G    | n/a  | Tr  | M   | CONT
+ talk to astrologer on call   | n/a T4         | n/a     | G    | n/a  | Tr  | H   | CONT
+ astrologer on call           | n/a T4         | n/a     | G    | n/a  | Tr  | M   | CONT
+ astrologer contact / phone   | n/a T4         | n/a     | G    | n/a  | Tr  | H   | CONT
+ number                       |                |         |      |      |     |     |
+ astrologer whatsapp number   | n/a T3         | n/a     | G    | n/a  | Tr  | M   | CONT
+ online kundli matching       | n/a T3         | n/a     | G    | n/a  | Tl  | M   | KUND
+ astrotalk free chat          | 18,100         | n/a     | S    | Med  | Tr  | L   | -
+ (benchmark)                  |                |         |      |      |     |     |
+
+Notes
+  - Most online-consultation suggestions end in "free", "free chat" or "ai" ("talk to
+    astrologer for free", "career astrology free ai"). AstroJain cannot win the free-chat
+    market from Astrotalk; target people who want ONE named, experienced astrologer by
+    phone or video, and say the fee up front.
+
+3.4 PROBLEM / PAIN-POINT TERMS
+
+ Keyword                      | India/mo       | Jaipur  | Src  | Conf | Int | Rel | Page
+ -----------------------------+----------------+---------+------+------+-----+-----+------
+ marriage delay astrology     | n/a T3         | n/a     | G    | n/a  | In  | H   | HORO
+                              |                |         |      |      |     |     | +blog
+ late marriage astrology      | n/a T3         | n/a     | G    | n/a  | In  | H   | HORO
+ marriage delay remedies      | n/a T3         | n/a     | G    | n/a  | In  | H   | HORO
+                              |                |         |      |      |     |     | +FAQ
+ astrologer for marriage      | n/a T3         | n/a     | G    | n/a  | Tr  | H   | KUND
+ (prediction)                 |                |         |      |      |     |     |
+ career astrology             | n/a T3         | n/a     | G    | n/a  | Mx  | H   | HORO
+ career problem(s) astrology  | n/a T4         | n/a     | G    | n/a  | Mx  | H   | HORO
+ / job problem astrology      |                |         |      |      |     |     |
+ manglik dosh ke upay         | n/a T4         | n/a     | G    | n/a  | In  | H   | KUND
+                              |                |         |      |      |     |     | +FAQ
+ love marriage astrology      | n/a T3         | n/a     | G    | n/a  | Mx  | M   | KUND
+ love marriage problem        | n/a T3         | n/a     | G    | n/a  | Tr  | L   | -
+ solution                     |                |         |      |      |     |     |
+ business astrology           | n/a T3         | n/a     | G    | n/a  | Mx  | M   | NUM
+ (consultation)               |                |         |      |      |     |     |
+ business loss astrology      | n/a T4         | n/a     | G    | n/a  | Mx  | M   | HORO
+ kaal sarp dosh               | n/a T3         | n/a     | G    | n/a  | In  | M   | HORO
+                              |                |         |      |      |     |     | +FAQ
+ shani sade sati (2026)       | n/a T3         | n/a     | G    | n/a  | In  | M   | HORO
+                              |                |         |      |      |     |     | +blog
+ sade sati remedies           | n/a T3         | n/a     | G    | n/a  | In  | M   | HORO
+ health problem astrology     | n/a T3         | n/a     | G    | n/a  | In  | M   | HORO
+ family problems astrology    | n/a T4         | n/a     | G    | n/a  | In  | M   | HORO
+ muhurat (today / trading)    | n/a T3         | n/a     | G    | n/a  | In  | L   | SERV
+ is astrology true for        | n/a T4         | n/a     | G    | n/a  | In  | L   | ABOUT
+ marriage                     |                |         |      |      |     |     | +FAQ
+ genuine / real astrologer    | n/a T3         | n/a     | G    | n/a  | Tr  | H   | ABOUT
+ (near me)                    |                |         |      |      |     |     |
+
+Notes
+  - "love marriage problem solution" suggestions are dominated by "specialist", "guruji"
+    and city-spam pages (often vashikaran sellers). Ranking there would put AstroJain next
+    to the kind of listings people distrust. Cover love-marriage questions honestly on the
+    kundli-matching page instead.
+  - "business loss" on its own is a tax query (set-off, carry forward). Only the full
+    phrase "business loss astrology" is relevant, and it is small.
+  - "kaal sarp dosh puja in ujjain" appears in autocomplete: people associate this remedy
+    with temple pujas elsewhere. Explain the dosha and simple remedies; do not compete for
+    puja bookings.
+
+3.5 HINDI AND HINGLISH TERMS
+
+ Keyword                      | India/mo       | Jaipur  | Src  | Conf | Int | Rel | Page
+ -----------------------------+----------------+---------+------+------+-----+-----+------
+ ज्योतिषी जयपुर               | n/a T5         | n/a     | G    | n/a  | Lc  | H   | HOME
+ जयपुर ज्योतिषी               | n/a T4         | n/a     | G    | n/a  | Lc  | H   | HOME
+ जयपुर के प्रसिद्ध ज्योतिषी   | n/a T4         | n/a     | G    | n/a  | Lc  | H   | ABOUT
+ जयपुर में सर्वश्रेष्ठ        | n/a T4         | n/a     | G    | n/a  | Lc  | H   | HOME
+ ज्योतिषी                     |                |         |      |      |     |     |
+ jyotish jaipur / jaipur      | n/a T3         | n/a     | G    | n/a  | Lc  | H   | HOME
+ jyotish pandit               |                |         |      |      |     |     |
+ कुंडली मिलान                 | n/a T3         | n/a     | G    | n/a  | Tl  | H   | KUND
+ कुंडली गुण मिलन              | n/a T4         | n/a     | G    | n/a  | Tl  | M   | KUND
+ कुंडली                       | n/a T3         | n/a     | G    | n/a  | Mx  | M   | HORO
+ मांगलिक दोष (के उपाय / में   | n/a T3         | n/a     | G    | n/a  | In  | H   | KUND
+ विवाह)                       |                |         |      |      |     |     |
+ विवाह में देरी के कारण व     | n/a T3         | n/a     | G    | n/a  | In  | H   | HORO
+ उपाय                         |                |         |      |      |     |     |
+ कालसर्प दोष (के उपाय)        | n/a T3         | n/a     | G    | n/a  | In  | M   | HORO
+ शनि साढ़ेसाती (के उपाय)      | n/a T3         | n/a     | G    | n/a  | In  | M   | HORO
+ हस्तरेखा                     | n/a T3         | n/a     | G    | n/a  | In  | M   | PALM
+ अंक ज्योतिष (नाम कैलकुलेटर)  | n/a T3         | n/a     | G    | n/a  | In  | M   | NUM
+ वास्तु शास्त्र               | n/a T3         | n/a     | G    | n/a  | In  | M   | VASTU
+ ज्योतिषी से बात              | n/a T4         | n/a     | G    | n/a  | Tr  | M   | CONT
+ ज्योतिष / ज्योतिष शास्त्र    | n/a T3         | n/a     | G    | n/a  | In  | L   | -
+
+Notes
+  - Hindi script lines may look misaligned in some editors because Devanagari characters
+    have different display widths. The content is correct.
+  - Typing "ज्योतिषी जयपुर" makes Google suggest only the English "jyotish jaipur". Typing
+    "जयपुर ज्योतिषी" suggests two Hindi phrases ("जयपुर के प्रसिद्ध ज्योतिषी", "जयपुर में
+    सर्वश्रेष्ठ ज्योतिषी") plus English ones. Jaipur searchers mix scripts, so each
+    service page should carry one short Hindi paragraph and Hindi FAQ, not a separate
+    Hindi site.
+  - For gemstones, "रत्न" on its own returns unrelated results (Ratnagiri, actors). Use
+    "रत्न परामर्श" or "कौन सा रत्न पहनें" only inside body copy.
+
+
+------------------------------------------------------------------------------------------
+4. PRIORITY LIST: TOP 15 BY (VOLUME x RELEVANCE)
+------------------------------------------------------------------------------------------
+
+  Score = demand (published India volume where it exists, otherwise tier) multiplied by
+  relevance. Because Jaipur volumes are unavailable, this is a judgement ranking, not a
+  calculation. Local phrases rank high despite small volume because they convert.
+
+ #  | Keyword                                      | Demand evidence        | Page
+ ---+----------------------------------------------+------------------------+------------
+ 1  | kundli matching for marriage                 | 301,000 (S) variant; T3 | KUND
+ 2  | astrologer in jaipur                         | T3, local              | HOME
+ 3  | best astrologer in jaipur                    | T3, local              | HOME
+ 4  | astrologer near me                           | T3, local (GBP)        | HOME + CONT
+ 5  | kundli milan / kundali milan                 | 83,000 (A)             | KUND
+ 6  | kundli reading / kundli                      | 450,000 (S); 68K (A)   | HORO
+ 7  | numerologist in jaipur / numerology          | 110,000 (R) + T4       | NUM
+ 8  | vastu consultant in jaipur                   | T3, local              | VASTU
+ 9  | online astrology consultation                | T3                     | SERV
+ 10 | manglik dosha (+ कुंडली मिलान)               | T3                     | KUND
+ 11 | marriage delay astrology                     | T3                     | HORO
+ 12 | gemstone recommendation                      | T3; 1,300 (R) variant  | GEM
+ 13 | name correction numerology                   | T3                     | NUM
+ 14 | palmist in jaipur                            | T3, local              | PALM
+ 15 | famous astrologer in jaipur                  | T3, local              | ABOUT
+
+  Next 5: birth chart reading (880, R) -> HORO; vastu for home -> VASTU; astrologer in
+  vaishali nagar jaipur -> CONT; career astrology -> HORO; talk to astrologer on call ->
+  CONT.
+
+
+------------------------------------------------------------------------------------------
+5. KEYWORD CLUSTERS BY PAGE (primary + supporting)
+------------------------------------------------------------------------------------------
+
+/ (home)
+    Primary   : astrologer in jaipur
+    Supporting: best astrologer in jaipur, astrologer near me, vedic astrologer jaipur,
+       jyotish jaipur, ज्योतिषी जयपुर, astrologer in jaipur rajasthan
+
+/about
+    Primary   : sachin jain astrologer (brand)
+    Supporting: famous astrologer in jaipur, vedic astrologer, genuine astrologer, जयपुर
+       के प्रसिद्ध ज्योतिषी
+
+/services
+    Primary   : online astrology consultation
+    Supporting: astrologer near me with fees, online astrologer consultation, muhurat,
+       astrologer on call
+
+/services/horoscope-reading
+    Primary   : kundli reading
+    Supporting: birth chart reading, horoscope reading, career astrology, marriage delay
+       astrology, shani sade sati, kaal sarp dosh, कुंडली, विवाह में देरी
+
+/services/kundli-matching
+    Primary   : kundli matching for marriage
+    Supporting: kundli milan, kundali milan in jaipur, manglik dosha, kundli matching
+       without birth time, कुंडली मिलान, मांगलिक दोष, love marriage astrology
+
+/services/palmistry
+    Primary   : palmist in jaipur
+    Supporting: palm reading jaipur, palmistry jaipur, palm reading, हस्तरेखा
+
+/services/numerology
+    Primary   : numerologist in jaipur
+    Supporting: name correction numerology, numerology for business name, numerology
+       jaipur, अंक ज्योतिष
+
+/services/gemstone-consultation
+    Primary   : gemstone recommendation by kundli
+    Supporting: which gemstone should i wear, gemstone consultation, lucky gemstone by
+       date of birth, astrological stone
+
+/services/vastu-shastra
+    Primary   : vastu consultant in jaipur
+    Supporting: vastu for home, vastu for office, vastu consultant near me with fees,
+       vastu expert jaipur, वास्तु शास्त्र
+
+/gallery
+    Primary   : astrojain (brand)
+    Supporting: sachin jain astrologer jaipur photos
+
+/contact
+    Primary   : astrologer in vaishali nagar jaipur
+    Supporting: astrologer near me, astrologer contact number, talk to astrologer on call,
+       ज्योतिषी से बात
+
+
+
+------------------------------------------------------------------------------------------
+6. SEASONALITY
+------------------------------------------------------------------------------------------
+
+  MEASURED: nothing. Google Trends was blocked (HTTP 429) for the whole session, so no
+  seasonal curve could be measured for any keyword in this file.
+
+  EXPECTED (calendar-based, NOT measured; check in Trends before acting on it):
+  - Kundli matching / marriage terms: should rise before the Hindu wedding season.
+    Chaturmas runs 23 July to 19 November 2026 (no weddings), and Devuthani / Devutthana
+    Ekadashi on 19 November 2026 re-opens the season (sources: smartpuja.com Devutthana
+    Ekadashi 2026 page; vaya.so Vivah Muhurat 2026 tool, both accessed 2026-10-24). Vaya
+    also lists Shukra Asta (Venus combust) from about 16 September to 1 November 2026,
+    when marriage muhurat is not taken. Families usually match kundlis weeks before fixing
+    a date, so the kundli-matching page should be live and indexed by early November 2026.
+  - Hindi press says the same: an Amar Ujala piece notes that as wedding muhurats
+    approach, people go to astrologers for kundli milan (amarujala.com, accessed
+    2026-10-24).
+  - New-year horoscope: "horoscope 2027" already appears in autocomplete on 2026-10-24
+    (with every sign and "in hindi"), so yearly-forecast interest is building now. A short
+    "2027 for your rashi" post in December could catch it; low relevance for bookings.
+  - Diwali / Navratri: "muhurat trading 2026" appears in autocomplete, showing
+    festival-timing searches. Muhurta for griha pravesh, shop opening and vehicle purchase
+    around Navratri, Dhanteras and Akshaya Tritiya is a reasonable seasonal angle for the
+    /services page.
+  - "shani sade sati 2026" and "शनि साढ़ेसाती कुंभ राशि 2026" appear in autocomplete:
+    transit-driven worry, steady through the year.
+
+  HOW TO CHECK (15 minutes, any browser): trends.google.com > Explore > region India (and
+  Rajasthan) > past 5 years > compare "kundli milan", "kundali matching", "vastu",
+  "astrologer near me", "numerology". Look for peaks around November to February and April
+  to June (wedding windows) and around Diwali.
+
+
+------------------------------------------------------------------------------------------
+7. COMPETITOR SNAPSHOT ("astrologer in jaipur" / "best astrologer in jaipur")
+------------------------------------------------------------------------------------------
+
+  Seen via web search and page reads on 2026-10-24. Positions are not exact rank checks;
+  Google results vary by user and location.
+
+A) NATIONAL PLATFORMS WITH JAIPUR LANDING PAGES
+  - astrotalk.com (/astrologer/india/jaipur, also a Hindi version /hi/...). Per-minute
+    chat and call with many astrologers, ratings, wait times. Content loads by script.
+  - astroyogi.com (/astrologer/india/jaipur). Title "Astrologer In Jaipur - First Free
+    Consultation by Expert". Free first consultation is the hook.
+
+B) DIRECTORIES AND LISTICLES
+  - weddingwire.in/astrologers/jaipur: 25 listings, starting prices from Rs 100 to Rs
+    15,000 (most Rs 500 to Rs 5,100), only 4 with any rating. 7 of 25 are in Vaishali
+    Nagar. Wedding / kundli-milan framing.
+  - jaipurlove.com ("5 Best Astrologers in Jaipur"): paid-listing style; names Pandit
+    Mukesh Bhardwaj (Vaishali Nagar, Rs 1,100 for 15 min), Ajay Agarwal, Surabhi Gupta,
+    Prahlad Shastri, Sunil Vashishtha, Purushottam Gaur.
+  - jaipurunveiled.com ("Top 10 Best Astrologers in Jaipur"): no websites listed; several
+    vashikaran sellers; FAQ says fees typically Rs 500 to Rs 5,000.
+  - addressguru.in, indorejyotish.in, theweek.in (promotional wire piece on Acharya
+    Indravarman) also appear.
+
+C) INDIVIDUAL ASTROLOGER SITES RANKING FOR THE PHRASE
+  - rajeshshrimali.com (/best-astrologer-jaipur/). Title "Best Astrologer in Jaipur |
+    Rajesh Shrimali Vedic Astrology". Emphasises family legacy (80+ years), 25+ years
+    practice, "1 lakh+ horoscopes", Rs 2,100 per horoscope fee in FAQ, Ashok Nagar office,
+    city pages for Mumbai, Indore, Bhopal etc. 9-question FAQ incl. "How much does an
+    astrologer in Jaipur cost?" and "Are gemstones or Vastu remedies recommended to
+    everyone?".
+  - rudrakshshrimali.com (/astrologer-in-jaipur/). "5th-generation", fees from Rs 1,000
+    (Rs 2,100 detailed), C-Scheme office, lists service areas incl. Vaishali Nagar.
+    27-question FAQ. Inconsistent claims on the page (8 years vs 1+ years; 3000+ vs 1K+
+    clients; "open 24 hours" vs 10-7).
+  - aghordham.com (/best-astrologer-in-jaipur/). Jhotwara. Published packages: Rs 2,100
+    basic, Rs 5,500 advanced, Rs 11,000 premium. Lists areas served incl. Vaishali Nagar;
+    phone consultations worldwide. No testimonials.
+  - astrohemant.com. "Best Astrologer in Jaipur" in title, Lal Kitab focus, online only,
+    media logos, courses, "95%+ success rate" and "1,00,000 people" claims, placeholder
+    counters showing "0+".
+  - astrologersuchita.com (/best-astrologer-in-jaipur/) also ranks; acharyalavbhushan.com
+    (Master Vastu, Malviya Nagar) is named in an Outlook India profile and a job ad (Vastu
+    + astrology).
+  - Vastu-specific results are mostly directories (realestateindia.com,
+    exportersindia.com, tradeindia.com), not astrologers: an open gap.
+  - Palmist / numerologist in Jaipur: autocomplete shows named local businesses ("palmist
+    in jaipur ashish puri", "insight numerology jaipur"); web results were thin. Another
+    open gap.
+
+D) WHAT COMPETITORS EMPHASISE
+  - Lineage and big numbers (generations, years, "lakh" horoscopes), "best" in every
+    heading, media logos, testimonials on their own site, phone/WhatsApp buttons, online +
+    in-person, and long FAQs. Only some publish fees.
+
+E) GAPS ASTROJAIN CAN EXPLOIT
+  - Price transparency: autocomplete shows "astrologer near me with fees", "without fees"
+    and "astrologer fees". Few Jaipur sites list fees. A clear fee table (and what is
+    included) on /services is a real differentiator.
+  - Trust without hype: competitors' pages contain contradictory numbers and unverifiable
+    "95% success" claims. Consistent, checkable facts (real address, real photos in
+    /gallery, Google reviews) stand out. People search "genuine astrologer", "real
+    astrologer" and "best astrologer in jaipur reddit / quora".
+  - "No pressure on costly remedies" positioning: answer "Are gemstones or pujas
+    required?" honestly (see section 8, pain points 2 and 3).
+  - Vaishali Nagar / west Jaipur: AstroJain is physically there; most ranking sites are in
+    C-Scheme, Ashok Nagar, Malviya Nagar or Jhotwara and only list Vaishali Nagar as a
+    "service area".
+  - Dedicated service pages for Jaipur Vastu, palmistry and numerology: weak competition
+    from real astrologers; mostly directories.
+  - Hindi + English on one page: most competitor pages are English-only with a few Hindi
+    words; Hindi searches like "जयपुर के प्रसिद्ध ज्योतिषी" have few dedicated answers.
+  - Kundli matching without birth time, Manglik cancellation and marriage delay:
+    autocomplete shows these questions; few local pages answer them.
+
+
+------------------------------------------------------------------------------------------
+8. CLIENT PAIN POINTS (what searchers are worried about)
+------------------------------------------------------------------------------------------
+
+1. Delayed marriage and Manglik fear (biggest)
+    Autocomplete: "marriage delay reason / remedies / astrology", "late marriage
+    astrology", "विवाह में देरी के कारण व उपाय", "मांगलिक दोष में विवाह", "manglik dosha
+    cancellation check", "kundli matching for marriage without time". An academic paper on
+    Manglik dosha among Hindu Dogras (serialsjournals.com) argues that rigid Manglik-only
+    matching itself prolongs marriage delays. Competitor FAQs ask "Can astrology predict
+    marriage and timing of marriage?" (rudrakshshrimali.com). Parents, not only the
+    couple, are often the searchers.
+
+2. Distrust of fake astrologers and fear of being cheated
+    Autocomplete: "genuine astrologer", "real astrologer", "is astrology real or fake",
+    "best astrologer in jaipur reddit / quora". News: a woman lost about Rs 6 lakh to an
+    online astrologer through escalating puja payments (gulte.com). The Indian Cyber Crime
+    Coordination Centre (I4C) warned about fraudsters posing as online astrologers
+    (outlookmoney.com article, seen in search results). ConsumerComplaints.in: a complaint
+    alleges fake Justdial reviews and Rs 21,300 paid for work not done. Competitor FAQ:
+    "How can I trust the advice of an astrologer?" (rudrakshshrimali.com).
+
+3. Fear of costly remedies, pujas and gemstones
+    Autocomplete: "कालसर्प दोष पूजा खर्च" (cost of Kaal Sarp puja), "which gemstone is
+    most expensive". Review sites: a reviewer of an online astrologer describes a Rs 1.25
+    lakh puja with a "guaranteed" job promotion that did not happen (seen in search
+    results for smartcustomer.com reviews of astrokapoor.com; page not opened). Competitor
+    FAQ: "Are gemstones or Vastu remedies recommended to everyone?" (rajeshshrimali.com).
+    jaipurunveiled.com advises asking for a full cost breakdown of pujas and gemstones.
+
+4. Not knowing the fee in advance
+    Autocomplete: "astrologer near me with fees", "without fees", "astrologer fees in
+    india", "vastu consultant near me with fees". Competitor FAQs: "How much does an
+    astrologer in Jaipur cost?" (rajeshshrimali.com), "What are your consultation fees?"
+    (rudrakshshrimali.com). WeddingWire Jaipur prices range Rs 100 to Rs 15,000. Platform
+    reviews complain about per-minute billing and dropped calls (Trustpilot, astrotalk.com
+    reviews) and unprocessed refunds (voxya.com, March 2026).
+
+5. Career stagnation and job problems
+    Autocomplete: "career problems astrology", "job problem astrology", "career obstacles
+    astrology", "career astrology by date of birth". Competitor FAQs: "Can astrology help
+    with career and business decisions?" (rajeshshrimali.com), "Can astrology help me find
+    a suitable career path?" (rudrakshshrimali.com). Astroyogi's Jaipur page lists love,
+    career, finance, family and health as the main topics.
+
+6. Business loss, money and naming a business
+    Autocomplete: "business loss astrology", "business astrology consultation",
+    "numerology for business name / company name / brand name". Competitor FAQ: "Can
+    astrology help in financial matters?" (rudrakshshrimali.com). JaipurLove lists
+    astrologers advertising help with "debts" and finance.
+
+7. Property and Vastu doubts
+    Autocomplete: "vastu for home north facing", "vastu for home entrance", "vastu for
+    office cabin / boss cabin", "वास्तु शास्त्र के अनुसार शौचालय". Real-estate blogs
+    (casagrand.co.in, homelane.com, bajajfinserv.in) spend whole articles on whether a
+    south-facing flat is bad, which shows how common the worry is; one buyer's guide warns
+    that a Vastu-perfect flat with bad legal papers is still a bad buy
+    (realtyhunting.com).
+
+8. Health worries
+    Autocomplete: "health problem astrology", "can astrology predict health problems",
+    "which planet causes health problems". Competitor FAQ: "Can astrology help in
+    resolving health issues?" (rudrakshshrimali.com). Pages must not imply medical advice.
+
+9. Family disputes and relationships
+    Autocomplete: "family problems astrology", "love marriage problem solution", "love
+    marriage astrology". Competitor FAQ: "How can astrology help in improving
+    relationships?" (rudrakshshrimali.com). Several Jaipur listicle entries sell
+    vashikaran for relationship control (jaipurunveiled.com), which many families
+    distrust.
+
+10. Privacy of birth details and personal problems
+    Kundli needs exact date, time and place of birth, and people share problems about
+    marriage, money and health. The Outline and nerdbot.com (Sept 2026) note astrology
+    apps collect birth data and data about partners and family; getcoai.com reports an AI
+    astrology app breach exposing 6 million users' data (secondary report).
+    astrohemant.com explicitly promises "complete privacy". People also ask "Do I need my
+    birth chart or Kundli for consultation?" (astrohemant.com FAQ).
+
+HOW TO USE THIS IN COPY
+  - State the fee and what it includes before the visitor has to call.
+  - Say plainly that remedies are optional, low-cost options (mantra, charity, routine)
+    are offered first, and gemstones are suggested only after checking the chart.
+  - Say birth details and conversations are kept private and not shared.
+  - Answer the marriage-delay and Manglik questions on the kundli-matching page in calm,
+    non-frightening language; mention that Manglik dosha often has cancellations.
+  - Do not promise results ("guaranteed", "100% solution"). It is exactly what distrustful
+    searchers are trying to avoid, and it is a legal and reputational risk.
+  - Confirm every factual claim with the client before publishing (years of practice,
+    client count, whether site visits for Vastu are offered, whether gemstones are sold).
+
+
+------------------------------------------------------------------------------------------
+9. RECOMMENDED TITLES AND META DESCRIPTIONS
+------------------------------------------------------------------------------------------
+
+  Character counts were checked by script (title <= 60, meta <= 155). The unverified
+  claims (20+ years, 5000+ clients) are deliberately left out; add them to the meta
+  description only after the client confirms them.
+
+/ (home)
+    Primary keyword    : astrologer in jaipur
+    Secondary keywords : best astrologer in jaipur; vedic astrologer jaipur; astrologer in
+       vaishali nagar jaipur
+    Title (52 chars)   : Vedic Astrologer in Jaipur | Sachin Jain - AstroJain
+    Meta (148 chars)   : Consult Sachin Jain, Vedic astrologer in Vaishali Nagar, Jaipur,
+       for kundli, marriage matching, career and Vastu. In person or online. Call to book.
+    H1                 : Vedic Astrologer in Jaipur - Sachin Jain
+
+/about
+    Primary keyword    : sachin jain astrologer
+    Secondary keywords : famous astrologer in jaipur; vedic astrologer; jyotish jaipur
+    Title (46 chars)   : About Sachin Jain | Vedic Astrologer in Jaipur
+    Meta (151 chars)   : Meet Sachin Jain of AstroJain, a Jaipur Vedic astrologer for
+       kundli, numerology, palmistry and Vastu. Clear fees, practical remedies, private
+       sessions.
+    H1                 : About Sachin Jain, Vedic Astrologer in Jaipur
+
+/services
+    Primary keyword    : online astrology consultation
+    Secondary keywords : online astrologer consultation; astrologer near me with fees;
+       astrologer on call
+    Title (49 chars)   : Astrology Services in Jaipur & Online | AstroJain
+    Meta (147 chars)   : Kundli reading, kundli matching, numerology, palmistry, gemstone
+       and Vastu consultations in Jaipur or online by phone and video. See fees and book.
+    H1                 : Astrology Consultations in Jaipur and Online
+
+/services/horoscope-reading
+    Primary keyword    : kundli reading
+    Secondary keywords : birth chart reading; horoscope reading; marriage delay astrology
+    Title (50 chars)   : Kundli & Birth Chart Reading in Jaipur | AstroJain
+    Meta (150 chars)   : Kundli (birth chart) reading by Sachin Jain in Jaipur or online.
+       Clear answers on career, marriage timing, health and Sade Sati, with simple
+       remedies.
+    H1                 : Kundli and Horoscope Reading in Jaipur
+
+/services/kundli-matching
+    Primary keyword    : kundli matching for marriage
+    Secondary keywords : kundli milan; kundali milan in jaipur; manglik dosha
+    Title (53 chars)   : Kundli Matching for Marriage in Jaipur | Kundli Milan
+    Meta (151 chars)   : Kundli milan by a Jaipur Vedic astrologer: 36 guna matching,
+       Manglik dosha check and cancellation, and honest advice for families. In person or
+       online.
+    H1                 : Kundli Matching (Kundli Milan) for Marriage
+
+/services/palmistry
+    Primary keyword    : palmist in jaipur
+    Secondary keywords : palm reading jaipur; palmistry jaipur; हस्तरेखा
+    Title (47 chars)   : Palmist in Jaipur | Palm Reading by Sachin Jain
+    Meta (153 chars)   : Palm reading in Jaipur with Sachin Jain: hand lines read with
+       your kundli for career, marriage and health questions. Visit Vaishali Nagar or book
+       online.
+    H1                 : Palmistry and Palm Reading in Jaipur
+
+/services/numerology
+    Primary keyword    : numerologist in jaipur
+    Secondary keywords : name correction numerology; numerology for business name; अंक
+       ज्योतिष
+    Title (56 chars)   : Numerologist in Jaipur | Name Correction & Business Name
+    Meta (154 chars)   : Numerology consultation in Jaipur: name correction, lucky numbers
+       and business or brand name checks by Sachin Jain. In person in Vaishali Nagar or
+       online.
+    H1                 : Numerology and Name Correction in Jaipur
+
+/services/gemstone-consultation
+    Primary keyword    : gemstone recommendation by kundli
+    Secondary keywords : which gemstone should i wear; gemstone consultation; lucky
+       gemstone by date of birth
+    Title (53 chars)   : Gemstone Recommendation by Kundli | Jaipur Astrologer
+    Meta (152 chars)   : Find out which gemstone suits your kundli, and which to avoid.
+       Sachin Jain checks your chart before suggesting any stone. Jaipur or online
+       consultation.
+    H1                 : Gemstone Consultation Based on Your Kundli
+
+/services/vastu-shastra
+    Primary keyword    : vastu consultant in jaipur
+    Secondary keywords : vastu for home; vastu for office; vastu consultant near me with
+       fees
+    Title (48 chars)   : Vastu Consultant in Jaipur | Home & Office Vastu
+    Meta (149 chars)   : Vastu consultation for homes, flats, shops and offices in Jaipur.
+       Plan review or visit by Sachin Jain, with practical remedies before costly changes.
+    H1                 : Vastu Consultant in Jaipur for Home and Office
+
+/gallery
+    Primary keyword    : astrojain
+    Secondary keywords : sachin jain astrologer jaipur; astrologer in vaishali nagar
+       jaipur
+    Title (51 chars)   : Gallery | AstroJain, Sachin Jain Astrologer, Jaipur
+    Meta (131 chars)   : Photos of the AstroJain office in Vaishali Nagar, Jaipur, and
+       moments from Vedic astrologer Sachin Jain's consultations and events.
+    H1                 : AstroJain Gallery
+
+/contact
+    Primary keyword    : astrologer in vaishali nagar jaipur
+    Secondary keywords : astrologer near me; astrologer contact number; talk to astrologer
+       on call
+    Title (56 chars)   : Contact AstroJain | Astrologer in Vaishali Nagar, Jaipur
+    Meta (150 chars)   : Book a consultation with Sachin Jain at F-18, Gautam Marg,
+       Vaishali Nagar, Jaipur. Call +91 96945 53351 or +91 78780 95569. In person, phone
+       or video.
+    H1                 : Book a Consultation with Sachin Jain
+
+  Notes: "Vastu ... Plan review or visit": confirm with the client that site visits are
+  offered; if not, change to "Online or in-office plan review". The home title avoids
+  "Best" in the title tag; "best astrologer in jaipur" is covered in body copy and an H2
+  instead, because every competitor already says "Best" and it is an unverifiable claim.
+  If the client insists, "Best Astrologer in Jaipur | Sachin Jain - AstroJain" is 51
+  characters (the current site layout already uses a similar title). "Clear fees" (/about)
+  and "See fees" (/services) assume the fee table recommended in section 7E is published;
+  drop those words if it is not.
+
+
+------------------------------------------------------------------------------------------
+10. NEXT STEPS TO GET REAL NUMBERS
+------------------------------------------------------------------------------------------
+
+  - Create a free Google Ads account and run every keyword in sections 3.1 to 3.5 through
+    Keyword Planner with location = Jaipur, then = Rajasthan, then = India. Paste the
+    ranges into the "Jaipur" and "India/mo" columns.
+  - Re-run Google Trends from a normal browser (it blocked automated requests today) for
+    the seasonality check in section 6.
+  - Set up Google Search Console on www.astrojain.in now; after 8 to 12 weeks its queries
+    report will show real impressions for these phrases.
+  - Claim and complete the Google Business Profile (Vaishali Nagar address, both phones,
+    categories Astrologer and Vastu consultant, photos, hours). "near me" demand is served
+    mainly through Maps.
+  - Re-check competitors in 3 months: who ranks for "astrologer in jaipur", "vastu
+    consultant in jaipur" and "palmist in jaipur".

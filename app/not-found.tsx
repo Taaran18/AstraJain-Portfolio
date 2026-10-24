@@ -1,29 +1,28 @@
-import Link from "next/link";
 import type { Metadata } from "next";
+import { ButtonLink } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "Page Not Found – AstroJain",
+  title: "Page Not Found",
+  robots: { index: false, follow: true },
 };
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-cosmic-gradient px-4">
-      <div className="text-center">
-        <div className="font-cinzel text-8xl font-bold text-gold mb-4 opacity-60">
-          404
-        </div>
-        <div className="text-5xl mb-6">✦</div>
-        <h1 className="font-cinzel text-2xl text-white mb-4">
-          This Star Has Moved
-        </h1>
-        <p className="font-cormorant text-lg text-cosmic-silver/65 mb-8 max-w-md mx-auto">
-          The page you seek has shifted in the cosmic order. Let us guide you
-          back to familiar stars.
+    <section className="section">
+      <div className="container-site max-w-2xl text-center">
+        <p className="eyebrow">Error 404</p>
+        <h1 className="text-display-lg">This Page Is Not In The Stars</h1>
+        <p className="mt-4 text-lg text-fg-muted">
+          The page you are looking for has moved or never existed. The links below will take you
+          somewhere useful.
         </p>
-        <Link href="/" className="btn-gold inline-block py-3 px-8">
-          Return Home
-        </Link>
+        <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+          <ButtonLink href="/">Go To The Homepage</ButtonLink>
+          <ButtonLink href="/services" variant="secondary">
+            See All Consultations
+          </ButtonLink>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

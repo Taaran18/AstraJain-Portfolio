@@ -1,0 +1,128 @@
+ASTROJAIN - COLOUR PSYCHOLOGY AND HOW IT IS APPLIED ON THE WEBSITE
+=========================================================================
+Date        : 2026-10-24 (all sources below accessed on this date)
+Audience    : Families and professionals in Jaipur and across India looking for an
+              astrologer they can trust with marriage, career, money and home decisions.
+Goal        : Build trust fast, signal spiritual depth without looking "mystical and scary",
+              and make the one action that matters (Book Consultation) impossible to miss.
+
+
+-------------------------------------------------------------------------
+1. READ THIS FIRST: HOW STRONG IS THE EVIDENCE?
+-------------------------------------------------------------------------
+  - Colour psychology is often oversold online. Most blog posts repeat claims without
+    citing studies, and several pages found during research were low-quality or copied.
+  - The most cited peer-reviewed work is Labrecque and Milne (2012), "Exciting red and
+    competent blue: the importance of color in marketing", Journal of the Academy of
+    Marketing Science 40(5), 711-727. Secondary summaries report that blue is linked to
+    competence, red to excitement, white to sincerity, and black and purple to
+    sophistication, and that saturation and brightness change these impressions. The full
+    text was not available here, so exact effect sizes are not quoted.
+  - Every summary agrees on one caveat: colours have no fixed meaning. Meaning comes from
+    culture, context and personal experience. For an Indian audience, Hindu colour
+    symbolism matters as much as Western marketing research.
+  - The only firm UX principle used here is contrast (the von Restorff or isolation effect):
+    one item that looks different from everything around it is noticed and remembered.
+    It is about contrast, not about one "magic" button colour.
+  - So the palette below is a reasoned design choice backed by the best available
+    evidence, not a guarantee of higher conversions. The website's own analytics and
+    A/B tests are the real proof.
+
+
+-------------------------------------------------------------------------
+2. THE PALETTE AND WHY EACH COLOUR IS THERE
+-------------------------------------------------------------------------
+
+MIDNIGHT INDIGO / NAVY  (dark theme background #070A1C, light theme text ink #151634)
+  Psychology : Blue is the most consistently linked colour to competence, trust and
+               stability (Labrecque and Milne 2012; widely used by banks and payments).
+               Deep, muted blue reads as calm authority rather than excitement.
+  Fit        : It is also the colour of the night sky, the natural setting of astrology.
+  Used for   : Dark theme surfaces, all body text in light theme, the top info strip, the
+               booking call-to-action panel, the logo mark.
+
+GOLD  (#D4A843 fill, #8C630E as text on ivory, #E4BD64 as text on midnight)
+  Psychology : Yellow and gold are associated in Hindu culture with learning, wisdom,
+               auspiciousness and prosperity (Vasant Panchami, turmeric rituals). Gold,
+               used sparingly, signals value and premium quality.
+  Fit        : Jupiter (Guru), the planet of wisdom and fortune, is traditionally linked
+               with yellow and gold.
+  Used for   : The ONE filled primary button style (Book Consultation, Send Request), the
+               brand name, key numbers. Because only primary actions are filled gold, they
+               stand apart from every other element (isolation effect).
+  Rule       : Never use a filled gold background for anything that is not the primary
+               action on that screen.
+
+SAFFRON  (#B84A06 on ivory, #FF9F43 on midnight)
+  Psychology : Saffron (kesariya, bhagwa) is the most sacred colour in Hinduism, linked to
+               Agni (fire), purification, light and the pursuit of enlightenment. It is warm
+               and attention-drawing without the alarm of red.
+  Used for   : Section eyebrow labels with the diamond ornament, numbered menu items,
+               small sacred accents. It tells the visitor "this is rooted in Indian
+               tradition" at a glance.
+  Rule       : Accent only. Small text and icons, never large areas or buttons.
+
+VIOLET  (#5838BE on ivory, #AA91FF on midnight)
+  Psychology : Purple is linked in secondary research to sophistication, spirituality and
+               intuition, and is associated with the crown chakra. Sources disagree on its
+               emotional tone, so it is kept as a supporting colour.
+  Used for   : Icons for client concerns, keyboard focus rings, the starfield in light theme.
+
+IVORY / PARCHMENT  (light theme background #FBF8F1, tint #F5F0E4)
+  Psychology : White is linked to sincerity and purity. A warm off-white feels calmer and
+               more personal than clinical pure white, and reduces glare for long reading.
+  Fit        : Echoes paper kundlis and patrikas.
+  Used for   : Light theme page background and cards.
+
+GREEN  (WhatsApp #25D366, success #15803D / #4ADE80)
+  Psychology : Universally read as "go" and "done". WhatsApp green is instantly recognised
+               by Indian users.
+  Used for   : Only the WhatsApp buttons and success states (request received, ticks).
+
+RED  (#BE2626 / #F87171)
+  Psychology : Alarm and urgency. Using red loosely would make an astrology site feel
+               fear-based, which is exactly the pain point clients complain about.
+  Used for   : Only form errors and the destructive "Clear Form" confirmation.
+
+
+-------------------------------------------------------------------------
+3. ACCESSIBILITY CHECKS
+-------------------------------------------------------------------------
+  - Body text, links and labels meet WCAG AA contrast (4.5:1) in both themes. Text gold
+    and saffron use darker shades on ivory and lighter shades on midnight for this reason
+    (saffron: about 4.9:1 on ivory, about 9.7:1 on midnight).
+  - Dark navy text on the gold button is used in both themes; it passes AA comfortably.
+  - Colour is never the only signal: errors also have an icon and text, the active menu
+    item also has a marker, selected options also have a filled radio.
+
+
+-------------------------------------------------------------------------
+4. HOW TO KEEP IT CONSISTENT
+-------------------------------------------------------------------------
+  - All colours live as tokens in app/globals.css (:root for light, .dark for dark) and
+    are exposed to Tailwind in tailwind.config.ts (paper, card, tint, line, fg, gold,
+    saffron, violet, success, danger, brand, night, cream).
+  - Add new UI with these tokens, never raw hex values, so both themes stay correct.
+  - If a future A/B test is run, test the CTA wording and placement before the colour;
+    contrast matters more than hue.
+
+
+-------------------------------------------------------------------------
+5. SOURCES (accessed 2026-10-24)
+-------------------------------------------------------------------------
+  - Labrecque, L. I. and Milne, G. R. (2012). Exciting red and competent blue: the
+    importance of color in marketing. Journal of the Academy of Marketing Science, 40(5),
+    711-727. Abstract: https://colab.ws/articles/10.1007/s11747-010-0245-y
+  - Summary of academic colour research for marketing (blue competence, white sincerity,
+    black and purple sophistication; meaning depends on culture):
+    https://digitalwellbeing.org/the-psychology-of-colour-and-digital-marketing/
+  - Master's thesis replicating blue = competence, red = excitement in logos (CBS):
+    https://research.cbs.dk/en/studentProjects/competent-blue-and-exciting-red-examining-the-effect-of-logo-colo/
+  - Saffron colour and its religious meaning: https://en.wikipedia.org/wiki/Saffron_(color)
+  - Meaning of colours in Hinduism: https://sanskritimagazine.com/meaning-of-different-colours-in-hinduism
+  - Colour symbolism in Indian culture and festivals:
+    https://www.gktoday.in/colour-symbolism-in-indian-culture-and-festivals/
+  - Von Restorff (isolation) effect in UX: https://uxtoast.com/ux-laws/von-restorff-effect
+    and https://app.uxcel.com/lessons/ux-laws-999/von-restorff-effect-5433
+  - Colour and conversions, with the caveat that claims lack controlled evidence:
+    https://www.entrepreneur.com/article/232741
